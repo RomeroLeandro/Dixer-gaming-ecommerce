@@ -1,6 +1,7 @@
 import React from 'react';
-import NavBar from './navBar/navBar';
 
+// importacion de componentes
+import {NavBar} from './navBar/NavBar';
 const App = () => {
     return (
         <div>
