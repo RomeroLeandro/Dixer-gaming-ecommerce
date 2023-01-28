@@ -17,7 +17,7 @@ export const NavBar = () => {
         </button>
         <Secciones/>
       </div>
-      <CartWidget CantidadCarro={10}/>
+      <CartWidget CantidadCarro={1}/>
     </nav>
   );
 }
