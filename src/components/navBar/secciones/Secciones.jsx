@@ -9,7 +9,9 @@ export const Secciones = () => {
       </li>
     <Categorias/>
     <li className="nav-item">
-        <a className="nav-link" href="#">Ayuda</a>
+      <button>
+      <a className="nav-link" href="#">Ayuda</a>
+      </button>
       </li>
     </ul>
   );
