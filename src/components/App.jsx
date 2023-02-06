@@ -1,13 +1,15 @@
 import React from 'react';
 
 // importacion de componentes
-import {NavBar} from './navBar/NavBar';
-import {ItemListContainer} from './itemListContainer/ItemListContainer';
+import { NavBar } from './navBar/NavBar';
+import { ItemListContainer } from './itemListContainer/ItemListContainer';
+import { ItemCount } from './itemCount/ItemCount';
 const App = () => {
   return (
     <>
-      <NavBar/>
-      <ItemListContainer greeting={10}/>
+      <NavBar />
+      <ItemListContainer />
+      <ItemCount valInicial={1} stock={10} />
     </>
   );
 }

@@ -10,7 +10,7 @@ export const Secciones = () => {
     <Categorias/>
     <li className="nav-item">
       <button>
-      <a className="nav-link" href="#">Ayuda</a>
+        <a className="nav-link" href="#">Ayuda</a>
       </button>
       </li>
     </ul>
