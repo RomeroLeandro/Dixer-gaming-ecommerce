@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { useEffect, useState } from "react";
+import { consultarBBD } from "../../utils/funciones";
 
 export const ItemListContainer = () => {
-  return (
-    <>
+  useEffect(() => {
+    consultarBBD("./json/Productos.json").then((prods) => console.log(prods));
+  }, []);
 
-    </>
-  );
-}
+  return;
+  <></>;
+};
