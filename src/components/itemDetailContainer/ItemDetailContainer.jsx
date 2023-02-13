@@ -7,7 +7,7 @@ export const ItemDetailContainer = () => {
 
     useEffect(() =>{
       consultarBBD('../json/Productos.json').then(prods =>{
-        const prod = prods.find(item => item.id === 4)
+        const prod = prods.find(item => item.id === '4')
         setProducto(prod)
       })
     },[])

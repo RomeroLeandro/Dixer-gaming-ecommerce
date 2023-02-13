@@ -1,3 +1,4 @@
+
 [
   {
     "id": "1",
@@ -9,7 +10,7 @@
     "precio": "18.000",
     "stock": "20",
     "img": "redDragonFizzProK616.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "2",
@@ -18,10 +19,10 @@
     "nombre": "Mouse",
     "marca": "Redragon",
     "modelo": "Invader M719",
-    "precio": "5000",
+    "precio": "5.000",
     "stock": "10",
     "img": "redragonInvaderM719.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "3",
@@ -30,10 +31,10 @@
     "nombre": "Microfono",
     "marca": "JBL",
     "modelo": "Quantum",
-    "precio": "20000",
+    "precio": "20.000",
     "stock": "10",
     "img": "JblQuantum.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "4",
@@ -42,10 +43,10 @@
     "nombre": "Parlantes",
     "marca": "Genius",
     "modelo": "Soundbar 100",
-    "precio": "9900",
+    "precio": "9.900",
     "stock": "15",
     "img": "geniusSoundbar100.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "5",
@@ -54,10 +55,10 @@
     "nombre": "Mouse Pad",
     "marca": "Havit",
     "modelo": "MP861",
-    "precio": "1400",
+    "precio": "1.400",
     "stock": "69",
     "img": "havitMp861.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "6",
@@ -66,10 +67,10 @@
     "nombre": "Microfono",
     "marca": "Trust",
     "modelo": "GXT258 Fyru",
-    "precio": "19300",
+    "precio": "19.300",
     "stock": "4",
     "img": "trustGxt258.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "7",
@@ -78,10 +79,10 @@
     "nombre": "Teclado",
     "marca": "Noganet",
     "modelo": "NKB-500",
-    "precio": "2000",
+    "precio": "2.000",
     "stock": "10",
     "img": "noganetNkb500.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "8",
@@ -89,10 +90,10 @@
     "nombre": "Notebook",
     "marca": "Lenovo",
     "modelo": "N5030",
-    "precio": "84900",
+    "precio": "84.900",
     "stock": "6",
     "img": "lenovoN5030.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "9",
@@ -101,10 +102,10 @@
     "nombre": "Mouse Pad",
     "marca": "Noga",
     "modelo": "Horizon",
-    "precio": "3300",
+    "precio": "3.300",
     "stock": "300",
     "img": "nogaHorizon.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "10",
@@ -112,10 +113,10 @@
     "nombre": "Celular",
     "marca": "Samsung",
     "modelo": "Galaxy S10",
-    "precio": "72900",
+    "precio": "72.900",
     "stock": "3",
     "img": "samsungGalaxyS10.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "11",
@@ -124,10 +125,10 @@
     "nombre": "Monitor",
     "marca": "BenQ",
     "modelo": "GW2480",
-    "precio": "90000",
+    "precio": "90.000",
     "stock": "5",
     "img": "benQGw2480.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "12",
@@ -136,10 +137,10 @@
     "nombre": "Auriculares",
     "marca": "JBL",
     "modelo": "Quantum 100",
-    "precio": "12700",
+    "precio": "12.700",
     "stock": "16",
     "img": "jblQuantum100.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "13",
@@ -148,10 +149,10 @@
     "nombre": "Mouse",
     "marca": "Noga",
     "modelo": "ST615",
-    "precio": "2200",
+    "precio": "2.200",
     "stock": "30",
     "img": "nogaSt615.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "14",
@@ -159,10 +160,10 @@
     "nombre": "Notebook",
     "marca": "Dell",
     "modelo": "Inspiron 3511",
-    "precio": "294000",
+    "precio": "294.000",
     "stock": "11",
     "img": "dellInspiron3511.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "15",
@@ -171,10 +172,10 @@
     "nombre": "Mouse",
     "marca": "Redragon",
     "modelo": "Co-bra M711w",
-    "precio": "6500",
+    "precio": "6.500",
     "stock": "6",
     "img": "redragonCobraM711.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "16",
@@ -183,10 +184,10 @@
     "nombre": "Parlantes",
     "marca": "Logitech",
     "modelo": "S150",
-    "precio": "9300",
+    "precio": "9.300",
     "stock": "2",
     "img": "logitechS150.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "17",
@@ -195,10 +196,10 @@
     "nombre": "Teclado",
     "marca": "Logitech",
     "modelo": "K380",
-    "precio": "11900",
+    "precio": "11.900",
     "stock": "25",
     "img": "logitechK380.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "18",
@@ -207,10 +208,10 @@
     "nombre": "Monitor",
     "marca": "Samsung",
     "modelo": "F22T35",
-    "precio": "42000",
+    "precio": "42.000",
     "stock": "10",
     "img": "samsungF22T35.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "19",
@@ -219,10 +220,10 @@
     "nombre": "Mouse Pad",
     "marca": "Logitech",
     "modelo": "G240",
-    "precio": "2500",
+    "precio": "2.500",
     "stock": "2",
     "img": "logitechG240.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "20",
@@ -231,10 +232,10 @@
     "nombre": "Auriculares",
     "marca": "Audio-Technica",
     "modelo": "M-Series",
-    "precio": "66700",
+    "precio": "66.700",
     "stock": "5",
     "img": "audioTechnicaMSeriesAthM40x.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "21",
@@ -242,10 +243,10 @@
     "nombre": "Silla",
     "marca": "Starway",
     "modelo": "WI-01",
-    "precio": "35300",
+    "precio": "35.300",
     "stock": "72",
     "img": "StarwayWl-01.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "22",
@@ -254,10 +255,10 @@
     "nombre": "Microfono",
     "marca": "Trust",
     "modelo": "Buzz GXT244",
-    "precio": "10700",
+    "precio": "10.700",
     "stock": "18",
     "img": "trustBuzzGxt244.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "23",
@@ -266,10 +267,10 @@
     "nombre": "Monitor",
     "marca": "Phillips",
     "modelo": "V221V8",
-    "precio": "45000",
+    "precio": "45.000",
     "stock": "4",
     "img": "philipsV221V8.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "24",
@@ -277,10 +278,10 @@
     "nombre": "Notebook",
     "marca": "Apple",
     "modelo": "Macbook Air M2",
-    "precio": "465000",
+    "precio": "465.000",
     "stock": "5",
     "img": "appleMacbookAirM2.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "25",
@@ -289,10 +290,10 @@
     "nombre": "Parlantes",
     "marca": "HP",
     "modelo": "DHE-6001",
-    "precio": "11800",
+    "precio": "11.800",
     "stock": "2",
     "img": "hpDhe6001.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "26",
@@ -300,10 +301,10 @@
     "nombre": "Silla",
     "marca": "Koa",
     "modelo": "OFI950",
-    "precio": "24900",
+    "precio": "24.900",
     "stock": "172",
     "img": "koaOFI950.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "27",
@@ -312,10 +313,10 @@
     "nombre": "Mouse",
     "marca": "Redragon",
     "modelo": "Centrophorus2 M601",
-    "precio": "4800",
+    "precio": "4.800",
     "stock": "23",
     "img": "redragonCentrophorus2.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "28",
@@ -324,10 +325,10 @@
     "nombre": "Mouse Pad",
     "marca": "Gadnic",
     "modelo": "Gamer XL",
-    "precio": "7900",
+    "precio": "7.900",
     "stock": "2",
     "img": "gadnicGamerXl.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "29",
@@ -336,10 +337,10 @@
     "nombre": "Monitor",
     "marca": "Daewoo",
     "modelo": "DW-MON19",
-    "precio": "40000",
+    "precio": "40.000",
     "stock": "12",
     "img": "daewooDwMon19.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "30",
@@ -348,10 +349,10 @@
     "nombre": "Teclado",
     "marca": "Genius",
     "modelo": "KB-118",
-    "precio": "2300",
+    "precio": "2.300",
     "stock": "40",
     "img": "geniusKb118.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "31",
@@ -360,10 +361,10 @@
     "nombre": "Auriculares",
     "marca": "Maxell",
     "modelo": "B52",
-    "precio": "6500",
+    "precio": "6.500",
     "stock": "20",
     "img": "MaxellB52.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "32",
@@ -371,10 +372,10 @@
     "nombre": "Celular",
     "marca": "Samsung",
     "modelo": "Galaxy A23",
-    "precio": "101000",
+    "precio": "101.000",
     "stock": "519",
     "img": "samsungGalaxyA23.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "33",
@@ -383,10 +384,10 @@
     "nombre": "Mouse",
     "marca": "Redragon",
     "modelo": "Storm Elite M988",
-    "precio": "8200",
+    "precio": "8.200",
     "stock": "10",
     "img": "redragonStormEliteM988.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "34",
@@ -394,10 +395,10 @@
     "nombre": "Notebook",
     "marca": "HP",
     "modelo": "15-DY2054LA",
-    "precio": "249000",
+    "precio": "249.000",
     "stock": "50",
     "img": "hp15dy2054la.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "35",
@@ -406,10 +407,10 @@
     "nombre": "Parlantes",
     "marca": "Noga",
     "modelo": "Aqua",
-    "precio": "23800",
+    "precio": "23.800",
     "stock": "21",
     "img": "nogaAqua.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "36",
@@ -418,10 +419,10 @@
     "nombre": "Microfono",
     "marca": "Blue",
     "modelo": "Yeti Nano",
-    "precio": "38000",
+    "precio": "38.000",
     "stock": "5",
     "img": "blueYetiNano.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "37",
@@ -429,10 +430,10 @@
     "nombre": "Silla",
     "marca": "Gadnic",
     "modelo": "Testa",
-    "precio": "34900",
+    "precio": "34.900",
     "stock": "3",
     "img": "gadnicTesta.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "38",
@@ -441,10 +442,10 @@
     "nombre": "Monitor",
     "marca": "DS",
     "modelo": "MF200",
-    "precio": "35000",
+    "precio": "35.000",
     "stock": "2",
     "img": "dsMf200.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "39",
@@ -453,10 +454,10 @@
     "nombre": "Mouse Pad",
     "marca": "Corsair",
     "modelo": "MM350",
-    "precio": "14900",
+    "precio": "14.900",
     "stock": "4",
     "img": "corsairMM350.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "40",
@@ -465,10 +466,10 @@
     "nombre": "Teclado",
     "marca": "T-Dagger",
     "modelo": "T-TGK 310",
-    "precio": "8500",
+    "precio": "8.500",
     "stock": "8",
     "img": "tDagerTtgk310.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "41",
@@ -477,10 +478,10 @@
     "nombre": "Mouse",
     "marca": "Hyper X",
     "modelo": "Pulsefire Raid",
-    "precio": "10900",
+    "precio": "10.900",
     "stock": "7",
     "img": "hyperXPulsefireRaid.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "42",
@@ -488,10 +489,10 @@
     "nombre": "Celular",
     "marca": "Samsung",
     "modelo": "Galaxy A04",
-    "precio": "64800",
+    "precio": "64.800",
     "stock": "13",
     "img": "samsungGalaxyA04.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "43",
@@ -500,10 +501,10 @@
     "nombre": "Auriculares",
     "marca": "Phillips",
     "modelo": "1000 Series",
-    "precio": "9200",
+    "precio": "9.200",
     "stock": "38",
     "img": "philips1000Series.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "44",
@@ -512,10 +513,10 @@
     "nombre": "Webcam",
     "marca": "Gadnic",
     "modelo": "Camweb02",
-    "precio": "10900",
+    "precio": "10.900",
     "stock": "10",
     "img": "gadnicCamweb02.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "45",
@@ -523,10 +524,10 @@
     "nombre": "Silla",
     "marca": "Ideon",
     "modelo": "Extreme Hunter Pro",
-    "precio": "49900",
+    "precio": "49.900",
     "stock": "87",
     "img": "ideonExtremeHunterPro.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "46",
@@ -534,10 +535,10 @@
     "nombre": "Notebook",
     "marca": "Asus",
     "modelo": "X515EA Slate",
-    "precio": "243000",
+    "precio": "243.000",
     "stock": "28",
     "img": "asusX515EA.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "47",
@@ -546,10 +547,10 @@
     "nombre": "Monitor",
     "marca": "Samsung",
     "modelo": "C24F390FH",
-    "precio": "85500",
+    "precio": "85.500",
     "stock": "5",
     "img": "samsungC24f390fh.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "48",
@@ -558,10 +559,10 @@
     "nombre": "Mouse Pad",
     "marca": "Noga",
     "modelo": "ST_G12 Stormer",
-    "precio": "1600",
+    "precio": "1.600",
     "stock": "23",
     "img": "nogaST-G12.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "49",
@@ -570,10 +571,10 @@
     "nombre": "Mouse",
     "marca": "Razer",
     "modelo": "Basilisk V2",
-    "precio": "20000",
+    "precio": "20.000",
     "stock": "5",
     "img": "razerBasiliskV2.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "50",
@@ -581,10 +582,10 @@
     "nombre": "Celular",
     "marca": "Xiaomi",
     "modelo": "Redmi Note 11",
-    "precio": "80000",
+    "precio": "80.000",
     "stock": "143",
     "img": "xiaomiRedmiNote11.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "51",
@@ -593,10 +594,10 @@
     "nombre": "Webcam",
     "marca": "Logitech",
     "modelo": "C505e",
-    "precio": "9000",
+    "precio": "9.000",
     "stock": "25",
     "img": "logitechC505e.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "52",
@@ -604,10 +605,10 @@
     "nombre": "Notebook",
     "marca": "Asus",
     "modelo": "Rog Strix G15",
-    "precio": "530000",
+    "precio": "530.000",
     "stock": "117",
     "img": "asusRogStrixG15.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "53",
@@ -616,10 +617,10 @@
     "nombre": "Teclado",
     "marca": "Havit",
     "modelo": "Gamenote KB857",
-    "precio": "4500",
+    "precio": "4.500",
     "stock": "15",
     "img": "gamenoteKb857.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "54",
@@ -628,10 +629,10 @@
     "nombre": "Monitor",
     "marca": "BenQ",
     "modelo": "XL-K Series",
-    "precio": "105000",
+    "precio": "105.000",
     "stock": "2",
     "img": "benQXlkSeries.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "55",
@@ -640,10 +641,10 @@
     "nombre": "Webcam",
     "marca": "Newvision",
     "modelo": "DC325",
-    "precio": "8800",
+    "precio": "8.800",
     "stock": "14",
     "img": "newVisionDc325.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "56",
     "idCategoria": "4",
@@ -651,10 +652,10 @@
     "nombre": "Monitor",
     "marca": "LG",
     "modelo": "24MK430H",
-    "precio": "50000",
+    "precio": "50.000",
     "stock": "10",
     "img": "lg24Mk430H.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "57",
     "idCategoria": "4",
@@ -662,10 +663,10 @@
     "nombre": "Mouse Pad",
     "marca": "Noga",
     "modelo": "G36",
-    "precio": "1900",
+    "precio": "1.900",
     "stock": "90",
     "img": "nogaG36.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "58",
     "idCategoria": "4",
@@ -673,10 +674,10 @@
     "nombre": "Mouse",
     "marca": "Razer",
     "modelo": "DeathAdder Essential",
-    "precio": "11000",
+    "precio": "11.000",
     "stock": "15",
     "img": "razerDeathAdder.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "59",
     "idCategoria": "4",
@@ -684,20 +685,20 @@
     "nombre": "Teclado",
     "marca": "Noganet",
     "modelo": "NKB-78011",
-    "precio": "1000",
+    "precio": "1.000",
     "stock": "40",
     "img": "noganetNkb78011.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "60",
     "idCategoria": "2",
     "nombre": "Notebook",
     "marca": "Dell",
     "modelo": "G15 5520",
-    "precio": "383000",
+    "precio": "383.000",
     "stock": "7",
     "img": "dellG155520.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "61",
@@ -706,10 +707,10 @@
     "nombre": "Microfono",
     "marca": "Fifine",
     "modelo": "K669",
-    "precio": "5000",
+    "precio": "5.000",
     "stock": "10",
     "img": "fifineK669.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "62",
     "idCategoria": "4",
@@ -717,10 +718,10 @@
     "nombre": "Webcam",
     "marca": "Logitech",
     "modelo": "C920e",
-    "precio": "23400",
+    "precio": "23.400",
     "stock": "5",
     "img": "logitechC920e.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "63",
     "idCategoria": "4",
@@ -728,10 +729,10 @@
     "nombre": "Parlantes",
     "marca": "Genius",
     "modelo": "Soundbar 200bt",
-    "precio": "8200",
+    "precio": "8.200",
     "stock": "16",
     "img": "geniusSoundbar200bt.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "64",
     "idCategoria": "4",
@@ -739,10 +740,10 @@
     "nombre": "Monitor",
     "marca": "Samsung",
     "modelo": "G50",
-    "precio": "80000",
+    "precio": "80.000",
     "stock": "6",
     "img": "samsungG50.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "65",
     "idCategoria": "4",
@@ -750,10 +751,10 @@
     "nombre": "Microfono",
     "marca": "Hyper X",
     "modelo": "QuadCast S",
-    "precio": "54900",
+    "precio": "54.900",
     "stock": "3",
     "img": "hyperXQuadCastS.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "66",
     "idCategoria": "4",
@@ -761,10 +762,10 @@
     "nombre": "Webcam",
     "marca": "Logitech",
     "modelo": "Brio",
-    "precio": "48000",
+    "precio": "48.000",
     "stock": "2",
     "img": "logitechBrio.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "67",
     "idCategoria": "4",
@@ -772,10 +773,10 @@
     "nombre": "Auriculares",
     "marca": "Aiwa",
     "modelo": "AW-BT301",
-    "precio": "8300",
+    "precio": "8.300",
     "stock": "15",
     "img": "aiwaAwBt301.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "68",
     "idCategoria": "4",
@@ -783,10 +784,10 @@
     "nombre": "Microfono",
     "marca": "Noga",
     "modelo": "Mic2030",
-    "precio": "1300",
+    "precio": "1.300",
     "stock": "40",
     "img": "nogaMic2030.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "69",
     "idCategoria": "4",
@@ -794,10 +795,10 @@
     "nombre": "Parlantes",
     "marca": "Noga",
     "modelo": "BT168",
-    "precio": "7500",
+    "precio": "7.500",
     "stock": "49",
     "img": "nogaBt168.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "70",
     "idCategoria": "4",
@@ -805,10 +806,10 @@
     "nombre": "Mouse",
     "marca": "Phillips",
     "modelo": "M344",
-    "precio": "2799",
+    "precio": "2.799",
     "stock": "5",
     "img": "PhilipsM344.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "71",
     "idCategoria": "4",
@@ -816,10 +817,10 @@
     "nombre": "Webcam",
     "marca": "Logitech",
     "modelo": "C270",
-    "precio": "8900",
+    "precio": "8.900",
     "stock": "30",
     "img": "logitechC270.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "72",
@@ -828,10 +829,10 @@
     "nombre": "Monitor",
     "marca": "Viewsonic",
     "modelo": "XG2431",
-    "precio": "165000",
+    "precio": "165.000",
     "stock": "3",
     "img": "viewsonicXg2431.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "73",
@@ -840,10 +841,10 @@
     "nombre": "Parlantes",
     "marca": "Noga",
     "modelo": "508p",
-    "precio": "2300",
+    "precio": "2.300",
     "stock": "288",
     "img": "noga508p.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "74",
@@ -852,10 +853,10 @@
     "nombre": "Microfono",
     "marca": "Hyper X",
     "modelo": "SoloCast",
-    "precio": "19500",
+    "precio": "19.500",
     "stock": "7",
     "img": "hyperXSoloCast.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "75",
@@ -864,10 +865,10 @@
     "nombre": "Teclado",
     "marca": "Red Dragon",
     "modelo": "Dragonborn K630",
-    "precio": "13500",
+    "precio": "13.500",
     "stock": "12",
     "img": "redDragonDragonbornK630.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "76",
@@ -876,10 +877,10 @@
     "nombre": "Mouse Pad",
     "marca": "Redragon",
     "modelo": "P006 Kunlun",
-    "precio": "6800",
+    "precio": "6.800",
     "stock": "10",
     "img": "redDragonP006.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "77",
@@ -888,10 +889,10 @@
     "nombre": "Webcam",
     "marca": "Soul",
     "modelo": "GAME-XW150",
-    "precio": "2400",
+    "precio": "2.400",
     "stock": "30",
     "img": "soulGameXw150.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "78",
     "idCategoria": "4",
@@ -899,10 +900,10 @@
     "nombre": "Parlantes",
     "marca": "Genius",
     "modelo": "SP-HF280",
-    "precio": "8000",
+    "precio": "8.000",
     "stock": "2",
     "img": "geniusSphf280.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "79",
@@ -911,10 +912,10 @@
     "nombre": "Teclado",
     "marca": "Genius",
     "modelo": "GX Gaming Scorpion K8",
-    "precio": "5300",
+    "precio": "5.300",
     "stock": "10",
     "img": "geniusGxGamingScorpionK8.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "80",
     "idCategoria": "4",
@@ -922,10 +923,10 @@
     "nombre": "Mouse Pad",
     "marca": "Redragon",
     "modelo": "Flick",
-    "precio": "6900",
+    "precio": "6.900",
     "stock": "25",
     "img": "redDragonFlick.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "81",
     "idCategoria": "4",
@@ -933,10 +934,10 @@
     "nombre": "Parlantes",
     "marca": "Logitech",
     "modelo": "Z120",
-    "precio": "8700",
+    "precio": "8.700",
     "stock": "11",
     "img": "logitechZ120.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "82",
@@ -945,20 +946,20 @@
     "nombre": "Auriculares",
     "marca": "Alpha",
     "modelo": "A8800",
-    "precio": "11900",
+    "precio": "11.900",
     "stock": "4",
     "img": "alphaA8800.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "83",
     "idCategoria": "3",
     "nombre": "Silla",
     "marca": "Evolve",
     "modelo": "418 TGH",
-    "precio": "126000",
+    "precio": "126.000",
     "stock": "3",
     "img": "evolve418Tgh.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "84",
@@ -966,10 +967,10 @@
     "nombre": "Notebook",
     "marca": "Asus",
     "modelo": "Gamer Tuf Dash",
-    "precio": "710000",
+    "precio": "710.000",
     "stock": "2",
     "img": "asusTufDash.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "85",
@@ -977,10 +978,10 @@
     "nombre": "Celular",
     "marca": "Motorola",
     "modelo": "Moto G32",
-    "precio": "72000",
+    "precio": "72.000",
     "stock": "30",
     "img": "motorolaMotoG32.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "86",
@@ -989,10 +990,10 @@
     "nombre": "Webcam",
     "marca": "Redragon",
     "modelo": "Fobos GW600",
-    "precio": "10300",
+    "precio": "10.300",
     "stock": "4",
     "img": "redragonFobosGw600.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "87",
@@ -1000,10 +1001,10 @@
     "nombre": "Silla",
     "marca": "Noga",
     "modelo": "Thypon RT",
-    "precio": "67100",
+    "precio": "67.100",
     "stock": "7",
     "img": "nogaThyponRt.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "88",
@@ -1012,10 +1013,10 @@
     "nombre": "Microfono",
     "marca": "SF",
     "modelo": "666",
-    "precio": "1900",
+    "precio": "1.900",
     "stock": "40",
     "img": "Sf666.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "89",
     "idCategoria": "4",
@@ -1023,10 +1024,10 @@
     "nombre": "Webcam",
     "marca": "Microcase",
     "modelo": "WC801",
-    "precio": "4500",
+    "precio": "4.500",
     "stock": "15",
     "img": "microcaseWc801.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "90",
@@ -1034,10 +1035,10 @@
     "nombre": "Celular",
     "marca": "Motorola",
     "modelo": "Moto G22",
-    "precio": "64900",
+    "precio": "64.900",
     "stock": "234",
     "img": "motorolaMotoG22.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "91",
@@ -1045,10 +1046,10 @@
     "nombre": "Silla",
     "marca": "Good Game",
     "modelo": "Pro",
-    "precio": "51900",
+    "precio": "51.900",
     "stock": "27",
     "img": "goodGamePro.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "92",
@@ -1056,10 +1057,10 @@
     "nombre": "Celular",
     "marca": "Samsung",
     "modelo": "Galaxy S23",
-    "precio": "319000",
+    "precio": "319.000",
     "stock": "5",
     "img": "samsungGalaxyA23.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "93",
@@ -1068,10 +1069,10 @@
     "nombre": "Auriculares",
     "marca": "Redragon",
     "modelo": "Pelops H818",
-    "precio": "21700",
+    "precio": "21.700",
     "stock": "8",
     "img": "redDragonPelopsH818.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "94",
@@ -1079,10 +1080,10 @@
     "nombre": "Silla",
     "marca": "Marvo",
     "modelo": "CH-106",
-    "precio": "79900",
+    "precio": "79.900",
     "stock": "3",
     "img": "marvoCH106.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "95",
@@ -1090,10 +1091,10 @@
     "nombre": "Notebook",
     "marca": "HP",
     "modelo": "240 G7",
-    "precio": "134000",
+    "precio": "134.000",
     "stock": "16",
     "img": "hp240G7.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "96",
@@ -1101,10 +1102,10 @@
     "nombre": "Celular",
     "marca": "Samsung",
     "modelo": "Galaxy M13",
-    "precio": "63900",
+    "precio": "63.900",
     "stock": "20",
     "img": "SamsungGalaxyM13.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "97",
@@ -1113,20 +1114,20 @@
     "nombre": "Auriculares",
     "marca": "Redragon",
     "modelo": "Scylla H901",
-    "precio": "7800",
+    "precio": "7.800",
     "stock": "15",
     "img": "redDagonScyllaH901.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },{
     "id": "98",
     "idCategoria": "3",
     "nombre": "Silla",
     "marca": "Constrictor",
     "modelo": "SIC-3001",
-    "precio": "92200",
+    "precio": "92.200",
     "stock": "48",
     "img": "constrictorSIC-3001.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "99",
@@ -1135,10 +1136,10 @@
     "nombre": "Auriculares",
     "marca": "Hyper X",
     "modelo": "Cloud Stinger Core",
-    "precio": "32200",
+    "precio": "32.200",
     "stock": "56",
     "img": "hyperXCloudStingerCore.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   },
   {
     "id": "100",
@@ -1146,9 +1147,9 @@
     "nombre": "Celular",
     "marca": "Motorola",
     "modelo": "Edge 30",
-    "precio": "129900",
+    "precio": "129.900",
     "stock": "56",
     "img": "MotorolaEdge30.webp",
-    "descrpcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
+    "descripcion": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nihil optio quia rem harum numquam quod ipsa provident quas ab, perspiciatis libero at iusto corporis veritatis quisquam totam, quos a quidem minima. Ad adipisci placeat ipsum expedita, veritatis ex magni illo sunt similique suscipit omnis, doloremque aliquam totam rerum voluptatem."
   }
 ]
