@@ -2,23 +2,15 @@ import React from "react";
 
 // importacion de componentes
 import { NavBar } from "./navBar/navBar";
-import { Item } from "./item/Item";
+import { ItemListContainer } from "./itemListContainer/ItemListContainer";
+import { ItemDetailContainer } from "./itemDetailContainer/ItemDetailContainer";
+import "./App.css";
 const App = () => {
   return (
     <>
       <NavBar />
-      <Item
-        item={{
-          id: "1",
-          idCategoria: "1",
-          nombre: "Teclado",
-          marca: "Red Dragon",
-          modelo: "Fizz Pro K616",
-          precio: "18.000",
-          stock: "20",
-          img: "redDragonFizzProK616-1.webp",
-        }}
-      />
+      <ItemListContainer/>
+      <ItemDetailContainer/>
     </>
   );
 };

@@ -1,1 +1,24 @@
+.cardProductos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4px;
+}
+.cardProducto{
+    width: 18rem;
+    margin: 4px;
+}
+.cardBody{
+    margin-bottom: 3px;
+    text-align: center;
+}
 
+.cardProducto img{
+    margin-top: 3px;
+
+}
+
+.itemDetail{
+    max-width: 540px;
+    margin-top: 20px;
+}
