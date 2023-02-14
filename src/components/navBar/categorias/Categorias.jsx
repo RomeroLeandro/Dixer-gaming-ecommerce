@@ -5,10 +5,10 @@ import "./Categorias.css";
 
 export const Categorias = () => {
   let categorias = [
-    {nombre: "celulares", id: "1"},
-    {nombre: "notebooks", id: "2"},
-    {nombre: "sillas", id: "3"},
-    {nombre: "perifericos", id: "4"}
+    {nombre: "Celulares", id: "1"},
+    {nombre: "Notebooks", id: "2"},
+    {nombre: "Sillas", id: "3"},
+    {nombre: "Perifericos", id: "4"}
   ]
 
   return (

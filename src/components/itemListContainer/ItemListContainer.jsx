@@ -8,10 +8,18 @@ import '../App.css'
 export const ItemListContainer = () => {
   const {idCategoria} = useParams()
   const [productos, setProductos] = useState([])
+
+  const categorias=[
+    {id:"1", categoria: "Celulares"},
+    {id:"2", categoria: "Notebooks"},
+    {id:"3", categoria: "Sillas"},
+    {id:"4",categoria: "Perifericos"}
+  ]
   useEffect(() => {
     if(idCategoria){
       consultarBBD('../json/Productos.json').then(products => {
-        const prods = products.filter(prod => prod.categoria === idCategoria)
+        const categoriaId = categorias.find((data)=>data.categoria === idCategoria)?.id
+        const prods = products.filter(prod => prod.idCategoria === categoriaId)
         const items = ItemList({prods})
         setProductos(items)
       })
