@@ -7,12 +7,11 @@ import '../App.css'
 
 export const ItemListContainer = () => {
   const {idCategoria} = useParams()
-  const {idSubCategoria} = useParams()
   const [productos, setProductos] = useState([])
   useEffect(() => {
     if(idCategoria){
       consultarBBD('../json/Productos.json').then(products => {
-        const prods = products.filter(prod => prod.idCategoria === idCategoria)
+        const prods = products.filter(prod => prod.categoria === idCategoria)
         const items = ItemList({prods})
         setProductos(items)
       })
