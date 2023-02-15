@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 import {Categorias} from '../categorias/Categorias';
 export const Secciones = () => {
   return (
-    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      <li className="nav-item">
+    <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
+      <li className='nav-item'>
         <Link className='nav-link' to={'/'}><p>Inicio</p></Link>
       </li>
     <Categorias/>
-    <li className="nav-item">
+    <li className='nav-item'>
       <button>
-        <a className="nav-link" href="#">Ayuda</a>
+        <a className='nav-link' href='#'>Ayuda</a>
       </button>
       </li>
     </ul>
