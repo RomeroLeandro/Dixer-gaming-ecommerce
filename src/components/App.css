@@ -15,10 +15,24 @@
 
 .cardProducto img{
     margin-top: 3px;
-
 }
-
+.cardBodyDark{
+    background-color: black;
+    margin-top: 3px;
+    text-align: center;
+}
 .itemDetail{
     max-width: 840px;
     margin-top: 20px;
+}
+.itemDetailBodyDark{
+    max-width: 840px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+.darkMode{
+    background-color: black;
+    color: gray;
 }

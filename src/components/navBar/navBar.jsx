@@ -4,9 +4,12 @@ import logo from "./img/logo.png";
 
 import { Secciones } from "./secciones/Secciones";
 import { CartWidget } from "../cartWidget/CartWidget";
+import { BotonDarkMode } from "./botonDarkMode/BotonDarkMode";
+import { useDarkModeContext } from "../../context/DarkModeContext";
 export const NavBar = () => {
+  const {darkMode} = useDarkModeContext()
   return (
-    <nav className='navbar navbar-expand-lg bg-light'>
+    <nav className={`navbar navbar-expand-lg ${darkMode ? "navbar-dark bg-primary" : "bg-light"}`}>
       <div className='container-fluid'>
         <a className='navbar-brand' href='#'>
           <img className='logo' src={logo} alt='logo dixer gaming' />
@@ -18,6 +21,7 @@ export const NavBar = () => {
           <Secciones />
           <CartWidget />
         </div>
+        <BotonDarkMode />
       </div>
     </nav>
   );

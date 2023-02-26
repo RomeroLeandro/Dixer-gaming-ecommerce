@@ -9,10 +9,12 @@ import { ItemDetailContainer } from "./itemDetailContainer/ItemDetailContainer";
 import { Checkout } from "./checkout/Checkout";
 import { Cart } from "./cart/Cart";
 import { ToastContainer } from 'react-toastify';
+import { DarkModeProvider } from "../context/DarkModeContext";
 const App = () => {
   return (
     <>
       <BrowserRouter>
+      <DarkModeProvider>
         <NavBar/>
         <Routes>
           <Route path='/' element={<ItemListContainer/>}/>
@@ -22,6 +24,7 @@ const App = () => {
           <Route path='/cart' element={<Cart/>}/>
         </Routes>
         <ToastContainer/>
+        </DarkModeProvider>
       </BrowserRouter>
     </>
   );
