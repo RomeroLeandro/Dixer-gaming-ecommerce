@@ -20,13 +20,13 @@ export const ItemListContainer = () => {
       consultarBDD('../json/Productos.json').then(products => {
         const categoriaId = categorias.find((data)=>data.categoria === idCategoria)?.id
         const prods = products.filter(prod => prod.idCategoria === categoriaId)
-        const items = ItemList({prods})
+        const items = <ItemList prods={prods} plantilla="Item"/>
         setProductos(items)
       })
     }
     else{
       consultarBDD('./json/Productos.json').then(prods => {
-        const items = ItemList({prods})
+        const items = <ItemList prods={prods} plantilla="Item"/>
         setProductos(items)
       })
     }

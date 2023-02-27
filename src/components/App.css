@@ -36,3 +36,6 @@
     background-color: black;
     color: gray;
 }
+.cardCart {
+    max-width: 640px;
+}

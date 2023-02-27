@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 import {Categorias} from '../categorias/Categorias';
-export const Secciones = () => {
+export const Secciones = React.memo(() => {
   return (
     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
       <li className='nav-item'>
@@ -16,4 +16,4 @@ export const Secciones = () => {
       </li>
     </ul>
   );
-}
+});

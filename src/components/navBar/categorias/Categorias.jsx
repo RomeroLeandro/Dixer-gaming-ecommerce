@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Categorias.css";
 
-export const Categorias = () => {
+export const Categorias = React.memo(() => {
   let categorias = [
     {nombre: "Celulares", id: "1"},
     {nombre: "Notebooks", id: "2"},
@@ -24,4 +24,4 @@ export const Categorias = () => {
       </ul>
     </li>
   );
-};
+})
