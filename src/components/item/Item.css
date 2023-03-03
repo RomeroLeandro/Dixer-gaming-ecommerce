@@ -1,0 +1,44 @@
+
+/* archivo Item */
+.cardProduct{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.addButton{
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(128, 75, 253);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all .3s ease;
+  box-shadow: rgb(116, 56, 255) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+}
+   
+.addButton:hover {
+  box-shadow: rgb(116, 56, 255) 0px 7px 0px 0px;
+}
+   
+.addButton:active {
+  background-color: rgb(116, 56, 255);
+  box-shadow: rgb(116, 56, 255) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+.cards {
+  height: 100%;
+  background: white;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin-top: 50px;
+}
+   
+.shadow {
+  box-shadow: 
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}

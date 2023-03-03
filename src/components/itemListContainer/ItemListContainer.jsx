@@ -7,13 +7,25 @@ import '../App.css'
 
 export const ItemListContainer = () => {
   const {idCategoria} = useParams()
+  const {idSubCategoria} = useParams()
   const [productos, setProductos] = useState([])
 
-  const categorias=[
+  const categorias = [
     {id:"1", categoria: "Celulares"},
     {id:"2", categoria: "Notebooks"},
     {id:"3", categoria: "Sillas"},
     {id:"4",categoria: "Perifericos"}
+  ]
+  const subCat = [
+    {id:"1", subCategoria:"Auriculares"},
+    {id:"2", subCategoria:"Microfonos"},
+    {id:"3", subCategoria:"Monitores"},
+    {id:"4", subCategoria:"Mouses"},
+    {id:"5", subCategoria:"MousesPad"},
+    {id:"6", subCategoria:"Parlantes"},
+    {id:"7", subCategoria:"Teclados"},
+    {id:"8", subCategoria:"Webcams"}
+    
   ]
   useEffect(() => {
     if(idCategoria){
@@ -24,13 +36,21 @@ export const ItemListContainer = () => {
         setProductos(items)
       })
     }
+    else if(idSubCategoria){
+      consultarBDD('../json/Productos.json').then(subProducts => {
+        const categoriaSubId = subCat.find((data)=>data.subCategoria === idSubCategoria)?.id
+        const subProds = subProducts.filter(subProd => subProd.idSubCategoria === categoriaSubId)
+        const items = <ItemList prods={subProds} plantilla="Item"/>
+        setProductos(items)
+      })
+    }
     else{
       consultarBDD('./json/Productos.json').then(prods => {
         const items = <ItemList prods={prods} plantilla="Item"/>
         setProductos(items)
       })
     }
-  }, [idCategoria]);
+  }, [idCategoria,idSubCategoria]);
 
   return(
     <div className='row cardProductos'>
