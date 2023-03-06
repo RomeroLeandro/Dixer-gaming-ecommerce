@@ -3,7 +3,7 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, doc, addDoc, getDocs, getDoc, updateDoc, deleteDoc} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAp32rpVF-BqojnZKQWOmS27n2Y_zMdE0Q",
+  apiKey: process.env.API_KEY,
   authDomain: "dixer-gaming.firebaseapp.com",
   projectId: "dixer-gaming",
   storageBucket: "dixer-gaming.appspot.com",

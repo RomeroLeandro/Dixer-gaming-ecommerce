@@ -26,7 +26,7 @@ export const Cart = () => {
             <button className="clearCart" onClick={() => emptyCart()}>Eliminar todo</button>
             </div>
             <Link className="divContinueBuy" to={"/"}><button className="continueBuy">Continuar comprando</button></Link>
-            <h5 className='textTotal'>TOTAL: $ {new Intl.NumberFormat('de-DE').format(totalPrice())}</h5>
+            <h5 className='textTotal'>TOTAL : $ {new Intl.NumberFormat('de-DE').format(totalPrice())}</h5>
             <Link className="divEndBuy" to={"/checkout"}><button className="endBuy">Finalizar Compra</button></Link>
 
           </div>

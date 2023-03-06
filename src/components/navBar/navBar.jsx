@@ -22,8 +22,8 @@ export const NavBar = () => {
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <Secciones />
         </div>
-        <CartWidget />
         <BotonDarkMode />
+        <CartWidget />
       </div>
     </nav>
   );

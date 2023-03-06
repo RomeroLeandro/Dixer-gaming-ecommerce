@@ -81,6 +81,7 @@
 .textTotal{
     width: 100%;
     margin-bottom: 0;
-    display: flex;
-    justify-content: flex-end;
+    margin-right: auto;
+    margin-left: 180px;
+
 }
