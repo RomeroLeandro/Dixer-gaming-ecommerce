@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDarkModeContext } from '../../context/DarkModeContext';
-import '../App.css'
+import './Item.css'
 
 export const Item = ({ item }) => {
   const {darkMode} = useDarkModeContext();
@@ -9,12 +9,18 @@ export const Item = ({ item }) => {
   
   return (
     <Link className={` cardProduct ${darkMode ? 'border-primary': 'border-light'}`} to={`/item/${item.id}`}> 
-      <div  className='cards shadow' style={{ width: "18rem" }}>
-        <img src={item.img} className='card-img-top' alt={`imagen de ${item.nombre}`}/>
-        <div className={`card-body ${darkMode ? 'cardBodyDark':'cardBody'}`}>
-          <h5 className='card-title'> {item.nombre} {item.marca} {item.modelo} </h5>
-          <p className='card-text'> Marca: {item.marca}</p>
-          <p className='card-text'>${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
+      <div  className='cardContent'>
+        <div className="lineContainer">
+        <img src={item.img} className='itemImg' alt={`imagen de ${item.nombre}`}/>
+        <div className="line"></div>
+        </div>
+        <div className={`cardBody ${darkMode ? 'cardBodyDark':'cardBody'}`}>
+          <p className='cardPrice'>${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
+          <p className='cardBrand'> Marca: {item.marca}</p>
+          <h5 className='cardTitle'> {item.nombre} {item.marca} {item.modelo} </h5>
+        </div>
+        <div className="addButtonContainer">
+
           <button className='addButton'>🛒 Agregar</button>
         </div>
       </div>
