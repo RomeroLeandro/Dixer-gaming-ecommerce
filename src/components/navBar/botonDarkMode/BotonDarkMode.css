@@ -15,7 +15,7 @@
   }
   
   .slider {
-    background-color: #ccc;
+    background-color: rgba(241,239,253,255);
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -26,7 +26,7 @@
   }
   
   .slider:before {
-    background-color: #fff;
+    background-color: rgba(99,97,217,255);
     bottom: 4px;
     content: "";
     height: 13px;
@@ -56,6 +56,9 @@
     border-radius: 50%;
   }
 
-  .sun moon{
-    
+  .modeBlack{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 30px;
   }
