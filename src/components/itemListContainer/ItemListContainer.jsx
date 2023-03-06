@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { consultarBDD } from '../../utils/funciones';
+import { getProductos } from '../../utils/firebase';
 import { ItemList } from '../itemList/ItemList';
 import '../App.css'
 
@@ -11,41 +11,42 @@ export const ItemListContainer = () => {
   const [productos, setProductos] = useState([])
 
   const categorias = [
-    {id:"1", categoria: "Celulares"},
-    {id:"2", categoria: "Notebooks"},
-    {id:"3", categoria: "Sillas"},
-    {id:"4",categoria: "Perifericos"}
+    {id:1, categoria: "Celulares"},
+    {id:2, categoria: "Notebooks"},
+    {id:3, categoria: "Sillas"},
+    {id:4,categoria: "Perifericos"}
   ]
   const subCat = [
-    {id:"1", subCategoria:"Auriculares"},
-    {id:"2", subCategoria:"Microfonos"},
-    {id:"3", subCategoria:"Monitores"},
-    {id:"4", subCategoria:"Mouses"},
-    {id:"5", subCategoria:"MousesPad"},
-    {id:"6", subCategoria:"Parlantes"},
-    {id:"7", subCategoria:"Teclados"},
-    {id:"8", subCategoria:"Webcams"}
+    {id:1, subCategoria:"Auriculares"},
+    {id:2, subCategoria:"Microfonos"},
+    {id:3, subCategoria:"Monitores"},
+    {id:4, subCategoria:"Mouses"},
+    {id:5, subCategoria:"MousesPad"},
+    {id:6, subCategoria:"Parlantes"},
+    {id:7, subCategoria:"Teclados"},
+    {id:8, subCategoria:"Webcams"}
     
   ]
   useEffect(() => {
     if(idCategoria){
-      consultarBDD('../json/Productos.json').then(products => {
+      getProductos().then(products => {
         const categoriaId = categorias.find((data)=>data.categoria === idCategoria)?.id
-        const prods = products.filter(prod => prod.idCategoria === categoriaId)
+        const prods = products.filter(prod =>prod.stock >0).filter(prod => prod.idCategoria ===categoriaId)
         const items = <ItemList prods={prods} plantilla="Item"/>
         setProductos(items)
       })
     }
     else if(idSubCategoria){
-      consultarBDD('../json/Productos.json').then(subProducts => {
+      getProductos().then(subProducts => {
         const categoriaSubId = subCat.find((data)=>data.subCategoria === idSubCategoria)?.id
-        const subProds = subProducts.filter(subProd => subProd.idSubCategoria === categoriaSubId)
+        const subProds = subProducts.filter(prod =>prod.stock >0).filter(subProd => subProd.idSubCategoria === categoriaSubId)
         const items = <ItemList prods={subProds} plantilla="Item"/>
         setProductos(items)
       })
     }
     else{
-      consultarBDD('./json/Productos.json').then(prods => {
+      getProductos().then(products => {
+        const prods = products.filter(prod =>prod.stock >0)
         const items = <ItemList prods={prods} plantilla="Item"/>
         setProductos(items)
       })
@@ -53,7 +54,7 @@ export const ItemListContainer = () => {
   }, [idCategoria,idSubCategoria]);
 
   return(
-    <div className='row cardProductos'>
+    <div className='row cardProducts'>
       {productos}
     </div>
   )

@@ -21,7 +21,7 @@ export const Categorias = React.memo(() => {
 
   return (
     <li className='nav-item dropdown'>
-      <a className='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'> Categorias </a>
+      <a className='nav-link dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'> Categorias </a>
       <ul className='dropdown-menu'>
         {categorias.map((el) => {
           return (
@@ -31,12 +31,12 @@ export const Categorias = React.memo(() => {
           )
         })}
         <li className='nav-link dropdown-submenu'>
-          <a className='nav-link' tabIndex={-1} href="#">Perifericos</a>
+          <Link className='nav-link' tabIndex={-1} to={`/category/Perifericos`}>Perifericos</Link>
           <ul className="dropdown-menu">
             {subCategorias.map((sub) => {
               return(
                 <li key={sub.id}>
-                  <Link className='dropdown-item' to={`/category/subcategory/${sub.subCategoria}`}>{sub.subCategoria}</Link>
+                  <Link className='dropdown-item' to={`/subcategory/${sub.subCategoria}`}>{sub.subCategoria}</Link>
                 </li>
               )
             })}

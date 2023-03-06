@@ -14,7 +14,7 @@ export const Item = ({ item }) => {
         <div className={`card-body ${darkMode ? 'cardBodyDark':'cardBody'}`}>
           <h5 className='card-title'> {item.nombre} {item.marca} {item.modelo} </h5>
           <p className='card-text'> Marca: {item.marca}</p>
-          <p className='card-text'>${item.precio}</p>
+          <p className='card-text'>${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
           <button className='addButton'>🛒 Agregar</button>
         </div>
       </div>

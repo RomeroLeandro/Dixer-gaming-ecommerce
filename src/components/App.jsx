@@ -10,21 +10,24 @@ import { Checkout } from "./checkout/Checkout";
 import { Cart } from "./cart/Cart";
 import { ToastContainer } from 'react-toastify';
 import { DarkModeProvider } from "../context/DarkModeContext";
+import { CarritoProvider } from "../context/CarritoContext";
 const App = () => {
   return (
     <>
       <BrowserRouter>
       <DarkModeProvider>
+      <CarritoProvider>
         <NavBar/>
         <Routes>
           <Route path='/' element={<ItemListContainer/>}/>
           <Route path='/category/:idCategoria/' element={<ItemListContainer/>}/>
-          <Route path='/category/subcategory/:idSubCategoria/' element={<ItemListContainer/>}/>
+          <Route path='/subcategory/:idSubCategoria/' element={<ItemListContainer/>}/>
           <Route path='/item/:id' element={<ItemDetailContainer/>}/>
           <Route path='/checkout' element={<Checkout/>}/>
           <Route path='/cart' element={<Cart/>}/>
         </Routes>
         <ToastContainer/>
+        </CarritoProvider>
         </DarkModeProvider>
       </BrowserRouter>
     </>

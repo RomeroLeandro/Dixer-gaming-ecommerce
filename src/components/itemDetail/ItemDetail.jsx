@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { ItemCount } from '../itemCount/ItemCount'
 import { useDarkModeContext } from '../../context/DarkModeContext'
+import { useCarritoContext } from "../../context/CarritoContext"
 export const ItemDetail = ({prod}) => {
   const {darkMode} = useDarkModeContext()
+  const { addItem } = useCarritoContext()
 
   const onAdd = (cantidad) => {
-    console.log(cantidad)
+    addItem(prod, cantidad)
   }
   return (
     <div className="row g-0">
@@ -17,7 +19,7 @@ export const ItemDetail = ({prod}) => {
       <div className={`card-body ${darkMode && "itemDetailBodyDark"}`}>
         <h5 className='card-title'> {prod.nombre} {prod.marca} {prod.modelo}</h5>
         <p className='card-text'><small className="text-muted">Marca: {prod.marca}</small></p>
-        <p className='card-text'>$ {prod.precio}</p>
+        <p className='card-text'>${new Intl.NumberFormat('de-DE').format(prod.precio)}</p>
         <p className='card-text'>Stock: {prod.stock}</p>
         <p className='card-text'>{prod.descripcion}</p>
         <ItemCount valInicial={1} stock={prod.stock} onAdd={onAdd}/>
