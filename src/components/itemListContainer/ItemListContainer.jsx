@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getProductos } from '../../utils/firebase';
 import { ItemList } from '../itemList/ItemList';
-import '../App.css'
+import './ItemListContainer.css'
 
 export const ItemListContainer = () => {
   const {idCategoria} = useParams()

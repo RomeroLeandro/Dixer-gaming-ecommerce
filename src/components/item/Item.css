@@ -14,6 +14,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  height: 100%;
 }
 .itemImg{
   width: 220px;
@@ -24,10 +26,7 @@
   -o-border-radius: 30px 30px 0px 0px;
 }
 .cardBody{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+padding-left: 10px;
 }
 .cardPrice, .cardBrand, .cardTittle{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -66,6 +65,10 @@
   99px 72px 143px rgba(0, 0, 0, 0.08);
 }
 .addButtonContainer{
-  margin-top: auto;
-  margin-bottom: 10px;
+  position: absolute;
+  bottom: 10px;
+}
+.lineContainer{
+  position: absolute;
+  top: 0;
 }
