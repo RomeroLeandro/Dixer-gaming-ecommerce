@@ -1,12 +1,17 @@
 .logo{
     width: 100%;
     padding-left: 1rem;
+    
 }
 .navbar{
     padding: 5px;
     background: #fff;
   box-shadow: 10px 10px 20px #bebebe,
              -10px -10px 20px #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin-bottom: 20px;
 }
 .container-fluid{
     padding: 0;
