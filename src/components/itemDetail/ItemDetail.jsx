@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { ItemCount } from '../itemCount/ItemCount'
 import { useDarkModeContext } from '../../context/DarkModeContext'
 import { useCarritoContext } from "../../context/CarritoContext"
@@ -30,17 +29,13 @@ export const ItemDetail = ({prod}) => {
   </button>
 </div>
     <div className="textContainer">
-      <div className={`card-body ${darkMode && "itemDetailBodyDark"}`}>
-        <h5 className='textTittleDetail'> {prod.nombre} {prod.marca} {prod.modelo}</h5>
+        <h5 className='textTittleDetail'>{prod.marca} {prod.modelo}</h5>
         <p className='textBrand'>Marca: {prod.marca}</p>
         <p className='priceDetail'>${new Intl.NumberFormat('de-DE').format(prod.precio)}</p>
-        <p className='stockDetail'>Stock: {prod.stock}</p>
         <p className='descriptionDetail'>{prod.descripcion}</p>
         <ItemCount valInicial={1} stock={prod.stock} onAdd={onAdd}/>
-        <Link className='buyDetail' to={'/cart'}><button>COMPRAR</button></Link>
+        <p className='stockDetail'>({prod.stock} disponibles)</p>
       </div>
-
-    </div>
   </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useCarritoContext } from "../../context/CarritoContext"
 import './ItemCart.css'
 
@@ -6,13 +7,12 @@ export const ItemCart = ({item}) => {
   const { removeItem } = useCarritoContext()
   return (
     <div className="itemCart">
-      <div className="imgCart">
+      <Link className="imgCart" to={`/item/${item.id}`}>
           <img src={item.img} alt={`Imagen de ${item.nombre}`} className="img-fluid rounded-start"/>
-      </div>
-      <div className="nameCart">
+      </Link>
+      <Link className="nameCart" to={`/item/${item.id}`}>
         <h5>{item.nombre} {item.marca} {item.modelo}</h5>
-        {/* <p> Precio Unitario: ${new Intl.NumberFormat('de-DE').format(item.precio)}</p> */}
-      </div>
+      </Link>
       <div className="priceItemCart">
         <p>${new Intl.NumberFormat('de-DE').format(item.precio * item.cant)}</p>
       </div>
