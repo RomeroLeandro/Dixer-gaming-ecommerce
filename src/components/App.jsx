@@ -11,6 +11,7 @@ import { Cart } from "./cart/Cart";
 import { ToastContainer } from 'react-toastify';
 import { DarkModeProvider } from "../context/DarkModeContext";
 import { CarritoProvider } from "../context/CarritoContext";
+import { Footer } from "./footer/Footer";
 const App = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='/checkout' element={<Checkout/>}/>
           <Route path='/cart' element={<Cart/>}/>
         </Routes>
+        <Footer/>
         <ToastContainer/>
         </CarritoProvider>
         </DarkModeProvider>

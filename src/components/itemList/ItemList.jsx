@@ -5,7 +5,7 @@ import { ItemCart } from '../itemCart/ItemCart';
 export const ItemList = ({prods, plantilla}) => {
   return (
     <>
-    {plantilla == "Item"
+    {plantilla === "Item"
     ?
     prods.map(producto => <Item item={producto} key={producto.id}/>)
         :
