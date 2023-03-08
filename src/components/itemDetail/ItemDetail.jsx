@@ -31,10 +31,12 @@ export const ItemDetail = ({prod}) => {
     <div className="textContainer">
         <h5 className='textTittleDetail'>{prod.marca} {prod.modelo}</h5>
         <p className='textBrand'>Marca: {prod.marca}</p>
+        <div className='priceStock'>
         <p className='priceDetail'>${new Intl.NumberFormat('de-DE').format(prod.precio)}</p>
+        <p className='stockDetail'>({prod.stock} disponibles)</p>
+        </div>
         <p className='descriptionDetail'>{prod.descripcion}</p>
         <ItemCount valInicial={1} stock={prod.stock} onAdd={onAdd}/>
-        <p className='stockDetail'>({prod.stock} disponibles)</p>
       </div>
   </div>
   )

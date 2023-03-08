@@ -27,7 +27,7 @@ const App = () => {
           <Route path='/checkout' element={<Checkout/>}/>
           <Route path='/cart' element={<Cart/>}/>
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
         <ToastContainer/>
         </CarritoProvider>
         </DarkModeProvider>
