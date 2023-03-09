@@ -5,6 +5,7 @@ import { toast } from 'react-toastify'
 import { useCarritoContext } from "../../context/CarritoContext";
 import { Link } from "react-router-dom";
 import { createOrdenCompra, updateProducto, getProducto } from "../../utils/firebase";
+import './Checkout.css'
 
 
 export const Checkout = () => {
@@ -30,40 +31,44 @@ export const Checkout = () => {
     navigate("/")
   }
   return (
-    <>
+    <div className='containerCheckout'>
       {carrito.length === 0
       ?
-      <>
+      <div className='emptyCheckout'>
         <h2>Para finalizar la compra debe tener productos en el carrito</h2>
         <Link className="nav-link" to={"/"}><button className="btn btn-primary">Continuar comprando</button></Link>
-      </>
+      </div>
       :
-      <div className="container contForm">
+      <div className="checkout">
         <form onSubmit={consultarForm} ref={datosForm}>
-          <div className="mb-3">
-            <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
-            <input type="text" className="form-control" name="nombre" />
+          <div className="inputCheckout">
+            <label htmlFor="nombre" className="label">Nombre y Apellido:</label>
+            <input type="text" required className="input" name="nombre" />
           </div>
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label">Email</label>
-            <input type="email" className="form-control" name="email" />
+          <div className="inputCheckout">
+            <label htmlFor="email" className="label">Email:</label>
+            <input type="email" required className="input" name="email" />
           </div>
-          <div className="mb-3">
-            <label htmlFor="dni" className="form-label">Documento</label>
-            <input type="number" className="form-control" name="dni" />
+          <div className="inputCheckout">
+            <label htmlFor="email" className="label"> Repetir Email:</label>
+            <input type="email" required className="input" name="email" />
           </div>
-          <div className="mb-3">
-            <label htmlFor="celular" className="form-label">Numero telefonico</label>
-            <input type="number" className="form-control" name="celular" />
+          <div className="inputCheckout">
+            <label htmlFor="dni" className="label">Documento:</label>
+            <input type="number" required className="input" name="dni" />
           </div>
-          <div className="mb-3">
-            <label htmlFor="direccion" className="form-label">Direccion</label>
-            <input type="text" className="form-control" name="direccion" />
+          <div className="inputCheckout">
+            <label htmlFor="celular" className="label">Numero telefonico:</label>
+            <input type="number" required className="input" name="celular" />
           </div>
-          <button type="submit" className="btn btn-primary">Finalizar compra</button>
+          <div className="inputCheckout">
+            <label htmlFor="direccion" className="label">Direccion:</label>
+            <input type="text" required className="input" name="direccion" />
+          </div>
         </form>
+          <button type="submit" className="buttonCheckout">Finalizar compra</button>
       </div>
       }
-        </>
+        </div>
   )
 }

@@ -25,6 +25,7 @@
     width: 2.5rem;
     transition: all 0.2s linear;
     border: none;
+    background-color: rgba(66, 38, 229, 0.08);
 }
 .addCount{
     border-radius: 0 1.25rem 1.25rem 0;
