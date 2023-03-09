@@ -5,6 +5,7 @@ import { toast } from 'react-toastify'
 import { useCarritoContext } from "../../context/CarritoContext";
 import { Link } from "react-router-dom";
 import { createOrdenCompra, updateProducto, getProducto } from "../../utils/firebase";
+import { useState } from 'react';
 import './Checkout.css'
 
 
@@ -12,8 +13,22 @@ export const Checkout = () => {
   const { carrito, emptyCart, totalPrice } = useCarritoContext()
   let navigate = useNavigate()
   const datosForm = useRef()
+  const [input1Value, setInput1Value] = useState("")
+  const [input2Value, setInput2Value] = useState("")
+
+  const handleInput1Change = (event) => {
+    setInput1Value(event.target.value)
+  }
+
+  const handleInput2Change = (event) => {
+    setInput2Value(event.target.value)
+  }
   const consultarForm = (evento) =>{
     evento.preventDefault()
+    if (input1Value !== input2Value) {
+      alert('Los campos de correo electrónico deben coincidir')
+      return
+    }
     const data = new FormData(datosForm.current)
     const cliente = Object.fromEntries(data)
     const aux = [...carrito]
@@ -30,6 +45,7 @@ export const Checkout = () => {
     emptyCart()
     navigate("/")
   }
+  
   return (
     <div className='containerCheckout'>
       {carrito.length === 0
@@ -47,11 +63,11 @@ export const Checkout = () => {
           </div>
           <div className="inputCheckout">
             <label htmlFor="email" className="label">Email:</label>
-            <input type="email" required className="input" name="email" />
+            <input type="email" required className="input" name="email" value={input1Value} onChange={handleInput1Change}/>
           </div>
           <div className="inputCheckout">
             <label htmlFor="email" className="label"> Repetir Email:</label>
-            <input type="email" required className="input" name="email" />
+            <input type="email" required className="input" name="email" value={input2Value} onChange={handleInput2Change}/>
           </div>
           <div className="inputCheckout">
             <label htmlFor="dni" className="label">Documento:</label>
@@ -65,8 +81,8 @@ export const Checkout = () => {
             <label htmlFor="direccion" className="label">Direccion:</label>
             <input type="text" required className="input" name="direccion" />
           </div>
-        </form>
           <button type="submit" className="buttonCheckout">Finalizar compra</button>
+        </form>
       </div>
       }
         </div>
