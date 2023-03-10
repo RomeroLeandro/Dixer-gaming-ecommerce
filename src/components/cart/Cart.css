@@ -1,3 +1,6 @@
+.cartContent{
+    margin-top: 80px;
+}
 .emptyCart{
     display: flex;
     flex-direction: column;
@@ -40,7 +43,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
 }
 .divClearCart{
     display: flex;

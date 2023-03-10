@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import 'react-toastify/dist/ReactToastify.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 // importacion de componentes
 import { NavBar } from "./navBar/navBar";
 import { ItemListContainer } from "./itemListContainer/ItemListContainer";

@@ -1,13 +1,16 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { Link} from "react-router-dom"
 import { ItemList } from "../itemList/ItemList"
 import { useCarritoContext } from "../../context/CarritoContext"
 import './Cart.css'
 
 export const Cart = () => {
   const { carrito, emptyCart, totalPrice } = useCarritoContext()
+  
+  
+
   return (
-    <>
+    <div className='cartContent'>
       {
         carrito.length === 0
         ?
@@ -33,6 +36,6 @@ export const Cart = () => {
         </div>
           </div>
       }
-    </>
+    </div>
   )
 }

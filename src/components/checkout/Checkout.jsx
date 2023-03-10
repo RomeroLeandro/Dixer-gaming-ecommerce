@@ -51,8 +51,8 @@ export const Checkout = () => {
       {carrito.length === 0
       ?
       <div className='emptyCheckout'>
-        <h2>Para finalizar la compra debe tener productos en el carrito</h2>
-        <Link className="nav-link" to={"/"}><button className="btn btn-primary">Continuar comprando</button></Link>
+        <h2>Para finalizar la compra debe tener productos en el carrito.</h2>
+        <Link to={"/"}><button className="emptyButton">Continuar comprando</button></Link>
       </div>
       :
       <div className="checkout">

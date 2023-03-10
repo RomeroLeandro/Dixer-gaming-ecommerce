@@ -16,8 +16,8 @@ export const ItemCount = ({ valInicial, stock ,onAdd}) => {
       <button className='addCount' onClick={() => sumar()}>+</button>
       </div>
       <button className='counter' onClick={()=>onAdd(contador)}>Agregar al carrito</button>
-      <Link to={'/cart'}>
-      <button className='counter' onClick={()=>onAdd(contador)}>Comprar ahora</button></Link>
+      <Link className='containerBuyNow' to={'/cart'}>
+      <button className='counterBuy' onClick={()=>onAdd(contador)}>Comprar ahora</button></Link>
     </div>
   )
 }
