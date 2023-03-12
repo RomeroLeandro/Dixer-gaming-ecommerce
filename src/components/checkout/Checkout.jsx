@@ -16,12 +16,12 @@ export const Checkout = () => {
   const [input1Value, setInput1Value] = useState("")
   const [input2Value, setInput2Value] = useState("")
 
-  const handleInput1Change = (event) => {
-    setInput1Value(event.target.value)
+  const handleInput1Change = (evento) => {
+    setInput1Value(evento.target.value)
   }
 
-  const handleInput2Change = (event) => {
-    setInput2Value(event.target.value)
+  const handleInput2Change = (evento) => {
+    setInput2Value(evento.target.value)
   }
   const consultarForm = (evento) =>{
     evento.preventDefault()
@@ -63,7 +63,7 @@ export const Checkout = () => {
           </div>
           <div className="inputCheckout">
             <label htmlFor="email" className="label">Email:</label>
-            <input type="email" required className="input" name="email" value={input1Value} onChange={handleInput1Change}/>
+            <input type="email" required className="input"  name="email" value={input1Value} onChange={handleInput1Change}/>
           </div>
           <div className="inputCheckout">
             <label htmlFor="email" className="label"> Repetir Email:</label>

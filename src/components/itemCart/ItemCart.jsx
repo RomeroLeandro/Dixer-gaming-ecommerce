@@ -1,10 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useCarritoContext } from "../../context/CarritoContext"
+import { ItemCount } from '../itemCount/ItemCount'
 import './ItemCart.css'
 
 export const ItemCart = ({item}) => {
   const { removeItem } = useCarritoContext()
+  const { addItem } = useCarritoContext()
+
+  const onAdd = (cantidad) => {
+    addItem(item, cantidad)
+  }
   return (
     <div className="itemCart">
       <Link className="imgCart" to={`/item/${item.id}`}>
@@ -16,9 +22,7 @@ export const ItemCart = ({item}) => {
       <div className="priceItemCart">
         <p>${new Intl.NumberFormat('de-DE').format(item.precio * item.cant)}</p>
       </div>
-      <div className="cantCart">
-        <p> Cantidad: {item.cant}</p>
-      </div> 
+      <ItemCount color="itemCart" valInicial={1} stock={item.stock} onAdd={onAdd} textButton="itemCart"/>
       <div className="delete">
       <button className='deleteButton' onClick={() => removeItem(item.id)}>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" height="25" width="25">

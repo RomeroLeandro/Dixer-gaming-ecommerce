@@ -36,7 +36,7 @@ export const ItemDetail = ({prod}) => {
         <p className='stockDetail'>({prod.stock} disponibles)</p>
         </div>
         <p className='descriptionDetail'>{prod.descripcion}</p>
-        <ItemCount valInicial={1} stock={prod.stock} onAdd={onAdd}/>
+        <ItemCount color="itemCount" valInicial={1} stock={prod.stock} onAdd={onAdd} textButton="itemCount"/>
       </div>
   </div>
   )
