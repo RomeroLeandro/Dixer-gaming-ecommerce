@@ -10,31 +10,40 @@
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  margin-top: 25px;
+  margin-bottom: 20px;
 }
 .imgCart{
   margin: 10px 20px;
   display: flex;
   align-items: center;
-}
-.imgCart img{
   width: 50px;
 }
 
-.delete,.priceItemCart, .cantCart{
+.delete{
   margin-left: auto;
   margin-right: 20px;
   display: flex;
   align-items: center;
 }
-.priceItemCart, .cantCart{
-  margin-right: 0;
-  width: 80px;
+
+.priceItemCart{
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: auto;
 }
+
+.cantCart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
 .nameCart{
   width: 240px;
   margin-right: auto;
-  margin-left: 10px;
+  margin-left: 0px;
   display: flex;
   align-items: center;
   text-decoration: none;

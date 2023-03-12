@@ -6,7 +6,7 @@
     gap: 1rem;
     margin-top: 30px;
 }
-.count{
+.count, .cart{
     width: 100px;
     height: 100%;
     display: flex;
@@ -78,11 +78,69 @@
     display: none;
 }
 .cartAdd{
-    padding: 1em;
+    height: 2rem;
+    width: 100%;
  border: 0px solid transparent;
  background-color: rgba(66, 38, 229, 0.08);
- border-radius: 1.25em;
+ border-radius: 0.50em;
  transition: all 0.2s linear;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 0.5rem;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 1rem;
+ -webkit-border-radius: 0.50em;
+ -moz-border-radius: 0.50em;
+ -ms-border-radius: 0.50em;
+ -o-border-radius: 0.50em;
+ margin-left: 0.5rem;
 }
+
+.cartContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.addCart{
+    border-radius: 0 0.50rem 0.50rem 0;
+    -webkit-border-radius: 0 0.50rem 0.50rem 0;
+    -moz-border-radius: 0 0.50rem 0.50rem 0;
+    -ms-border-radius: 0 0.50rem 0.50rem 0;
+    -o-border-radius: 0 0.50rem 0.50rem 0;
+}
+.addCart:hover{
+    background: rgba(23, 203, 101, 0.35);
+}
+.subtractCart{
+    border-radius: 0.50rem 0 0 0.50rem;
+    -webkit-border-radius: 0.50rem 0 0 0.50rem;
+    -moz-border-radius: 0.50rem 0 0 0.50rem;
+    -ms-border-radius: 0.50rem 0 0 0.50rem;
+    -o-border-radius: 0.50rem 0 0 0.50rem;
+}
+.subtractCart:hover{
+    background: rgba(181, 37, 29, 0.35);
+}
+
+.cart{
+    width: 8rem;
+ height: 2rem;
+ border: 0px solid transparent;
+ background-color: rgba(66, 38, 229, 0.08);
+ border-radius: 0.50em;
+ transition: all 0.2s linear;
+ font-size: 1rem;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ -webkit-border-radius: 0.50em;
+ -moz-border-radius: 0.50em;
+ -ms-border-radius: 0.50em;
+ -o-border-radius: 0.50em;
+}
+
+.addCart, .subtractCart{
+    height: 100%;
+    transition: all 0.2s linear;
+    border: none;
+    background-color: rgba(66, 38, 229, 0.08);
+}
+
