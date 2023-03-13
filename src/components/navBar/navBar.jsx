@@ -1,15 +1,15 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from'react-router-dom';
 // import secciones
-import { Secciones } from "./secciones/Secciones";
+import { Secciones } from './secciones/Secciones';
 // import cartWidget
-import { CartWidget } from "../cartWidget/CartWidget";
+import { CartWidget } from '../cartWidget/CartWidget';
 // import boton dark mode
-import { BotonDarkMode } from "./botonDarkMode/BotonDarkMode";
+import { BotonDarkMode } from './botonDarkMode/BotonDarkMode';
 // import context dark mode
-import { useDarkModeContext } from "../../context/DarkModeContext";
+import { useDarkModeContext } from '../../context/DarkModeContext';
 // import css
-import "./NavBar.css";
+import './NavBar.css';
 
 export const NavBar = () => {
   const {darkMode} = useDarkModeContext()

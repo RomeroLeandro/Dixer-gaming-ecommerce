@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 // import css
-import "./Categorias.css";
+import './Categorias.css';
 
 export const Categorias = React.memo(() => {
   let categorias = [
