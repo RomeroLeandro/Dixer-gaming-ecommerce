@@ -52,13 +52,13 @@ export const Checkout = () => {
     const fieldIsEmpty = requiredFields.some((field) => !cliente[field]);
     if (fieldIsEmpty) {
       setShowModalEmpty(true);
-      setModalMessageEmpty("Por favor complete todos los campos.");
+      setModalMessageEmpty("POR FAVOR, COMPLETE TODOS LOS CAMPOS.");
       return;}
 
     // si los emails no coinciden
     if (input1Value !== input2Value) {
       setShowModal(true);
-      setModalMessage('Los campos de correo electrónico deben coincidir');
+      setModalMessage('LOS CAMPOS DE CORREO ELECTRONICO DEBEN COINCIDIR.');
       return;}
     const aux = [...carrito]
       aux.forEach(prodCarrito => {
@@ -113,22 +113,26 @@ export const Checkout = () => {
         </form>
         {showModal &&
           <div className="modal">
-            <div className="modal-content">
-              <span className="close" onClick={handleModalClose}>&times;</span>
+            <div className="modalContent">
+            <span className="close" onClick={handleModalClose}>&times;</span>
+            <div className="modalText">
               <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="rgba(99,96,223,255)" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
                 <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
               </svg>
               <p>{modalMessage}</p>
             </div>
+            </div>
           </div>}
         {showModalEmpty &&
           <div className="modal">
-            <div className="modal-content">
-              <span className="close" onClick={handleModalCloseEmpty}>&times;</span>
+            <div className="modalContent">
+            <span className="close" onClick={handleModalCloseEmpty}>&times;</span>
+            <div className="modalText">
               <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="rgba(99,96,223,255)" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
                 <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
               </svg>
               <p>{modalMessageEmpty}</p>
+            </div>
             </div>
           </div>}
       </div>}

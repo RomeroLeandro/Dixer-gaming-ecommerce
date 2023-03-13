@@ -10,7 +10,7 @@ export const Secciones = React.memo(() => {
       <Categorias/>
       <li className='nav-item'>
         <button className='buttonHelp'>
-          <a className='nav-link' href='#'>Ayuda</a>
+          <a className='nav-link' href='#footer'>Ayuda</a>
         </button>
       </li>
     </ul>);});
