@@ -1,14 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import secciones
+import { Secciones } from "./secciones/Secciones";
+// import cartWidget
+import { CartWidget } from "../cartWidget/CartWidget";
+// import boton dark mode
+import { BotonDarkMode } from "./botonDarkMode/BotonDarkMode";
+// import context dark mode
+import { useDarkModeContext } from "../../context/DarkModeContext";
+// import css
 import "./NavBar.css";
 
-
-import { Secciones } from "./secciones/Secciones";
-import { CartWidget } from "../cartWidget/CartWidget";
-import { BotonDarkMode } from "./botonDarkMode/BotonDarkMode";
-import { useDarkModeContext } from "../../context/DarkModeContext";
 export const NavBar = () => {
   const {darkMode} = useDarkModeContext()
+
   return (
     // <nav className={`navbar navbar-expand-lg ${darkMode ? "navbar-dark bg-primary" : "bg-light"}`}>
     <nav className='navbar navbar-expand-lg'>
@@ -25,6 +30,4 @@ export const NavBar = () => {
         <BotonDarkMode />
         <CartWidget />
       </div>
-    </nav>
-  );
-};
+    </nav>)}
