@@ -5,6 +5,7 @@ import { ItemCount } from '../itemCount/ItemCount'
 import { useDarkModeContext } from '../../context/DarkModeContext'
 // import context carrito
 import { useCarritoContext } from '../../context/CarritoContext'
+// import css
 import './ItemDetail.css'
 export const ItemDetail = ({prod}) => {
   const {darkMode} = useDarkModeContext()
