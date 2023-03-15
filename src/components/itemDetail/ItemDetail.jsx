@@ -15,7 +15,7 @@ export const ItemDetail = ({prod}) => {
     addItem(prod, cantidad)
   }
   return (
-    <div className='itemDetailContainer container'>
+    <div className={`itemDetailContainer ${darkMode && "itemDetailContainerDark"}`}>
       <div id='carouselExampleFade' className='carousel slide carousel-fade imgContainer'>
         <div className='carousel-inner'>
           <div className='carousel-item active'>
@@ -33,13 +33,13 @@ export const ItemDetail = ({prod}) => {
         </button>
       </div>
       <div className='textContainer'>
-        <h5 className='textTittleDetail'>{prod.marca} {prod.modelo}</h5>
-        <p className='textBrand'>Marca: {prod.marca}</p>
+        <h5 className={`textTittleDetail ${darkMode && "textTittleDetailDark"}`}>{prod.marca} {prod.modelo}</h5>
+        <p className={`textBrand ${darkMode && "textBrandDark"}`}>Marca: {prod.marca}</p>
         <div className='priceStock'>
           <p className='priceDetail'>${new Intl.NumberFormat('de-DE').format(prod.precio)}</p>
           <p className='stockDetail'>({prod.stock} disponibles)</p>
         </div>
-        <p className='descriptionDetail'>{prod.descripcion}</p>
+        <p className={`descriptionDetail ${darkMode && "descriptionDetailDark"}`}>{prod.descripcion}</p>
         <ItemCount color='itemCount' valInicial={1} stock={prod.stock} onAdd={onAdd} textButton='itemCount'/>
       </div>
     </div>)}
