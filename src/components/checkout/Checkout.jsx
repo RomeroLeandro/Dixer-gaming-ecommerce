@@ -5,11 +5,14 @@ import { Link, useNavigate } from "react-router-dom";
 import { useCarritoContext } from "../../context/CarritoContext";
 // import firebase
 import { createOrdenCompra, updateProducto, getProducto } from "../../utils/firebase";
+// import context dark mode
+import { useDarkModeContext } from '../../context/DarkModeContext';
 // import toastify
 import { toast } from 'react-toastify'
 // import css
 import './Checkout.css'
 export const Checkout = () => {
+  const {darkMode} = useDarkModeContext()
   const { carrito, emptyCart, totalPrice } = useCarritoContext()
   let navigate = useNavigate()
   const datosForm = useRef()
@@ -86,30 +89,30 @@ export const Checkout = () => {
       <div className="checkout">
         <form onSubmit={consultarForm} ref={datosForm}>
           <div className="inputCheckout">
-            <label htmlFor="nombre" className="label">Nombre y Apellido:</label>
-            <input type="text"  className="input" name="nombre" />
+            <label htmlFor="nombre" className={`label ${darkMode && "labelDark"}`}>Nombre y Apellido:</label>
+            <input type="text"  className={`input ${darkMode && "inputDark"}`} name="nombre" />
           </div>
           <div className="inputCheckout">
-            <label htmlFor="email" className="label">Email:</label>
-            <input type="email" className="input"  name="email" value={input1Value} onChange={handleInput1Change}/>
+            <label htmlFor="email" className={`label ${darkMode && "labelDark"}`}>Email:</label>
+            <input type="email" className={`input ${darkMode && "inputDark"}`}  name="email" value={input1Value} onChange={handleInput1Change}/>
           </div>
           <div className="inputCheckout">
-            <label htmlFor="email" className="label"> Repetir Email:</label>
-            <input type="email" className="input" name="email" value={input2Value} onChange={handleInput2Change}/>
+            <label htmlFor="email" className={`label ${darkMode && "labelDark"}`}> Repetir Email:</label>
+            <input type="email" className={`input ${darkMode && "inputDark"}`} name="email" value={input2Value} onChange={handleInput2Change}/>
           </div>
           <div className="inputCheckout">
-            <label htmlFor="dni" className="label">Documento:</label>
-            <input type="number" className="input" name="dni" />
+            <label htmlFor="dni" className={`label ${darkMode && "labelDark"}`}>Documento:</label>
+            <input type="number" className={`input ${darkMode && "inputDark"}`} name="dni" />
           </div>
           <div className="inputCheckout">
-            <label htmlFor="celular" className="label">Numero telefonico:</label>
-            <input type="number" className="input" name="celular" />
+            <label htmlFor="celular" className={`label ${darkMode && "labelDark"}`}>Numero telefonico:</label>
+            <input type="number" className={`input ${darkMode && "inputDark"}`} name="celular" />
           </div>
           <div className="inputCheckout">
-            <label htmlFor="direccion" className="label">Direccion:</label>
-            <input type="text" className="input" name="direccion" />
+            <label htmlFor="direccion" className={`label ${darkMode && "labelDark"}`}>Direccion:</label>
+            <input type="text" className={`input ${darkMode && "inputDark"}`} name="direccion" />
           </div>
-          <button type="submit" className="buttonCheckout">Finalizar compra</button>
+          <button type="submit" className={`buttonCheckout ${darkMode && 'buttonCheckoutDark'}`}>Finalizar compra</button>
         </form>
         {showModal &&
           <div className="modal">
