@@ -47,14 +47,14 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #000;
 }
 .nameCart h5{
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.3rem;
   margin-bottom: 0;
+  color: #000;
 }
-.priceItemCart p, .cantCart p{
+.priceItemCart p, .cantCart {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.2rem;
   margin-bottom: 0;
@@ -79,3 +79,50 @@
   36.1px 26.3px 52.2px rgba(0, 0, 0, 0.055),
   99px 72px 143px rgba(0, 0, 0, 0.08);
 }
+
+
+
+.itemCartDark{
+  width: 70%;
+  height: 100px;
+  border-radius: 15px;
+  background: #000;
+  box-shadow: 7px 7px 15px #202020,             -7px -7px 15px #303030;
+  display: flex;
+  flex-direction: row;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-bottom: 20px;
+}
+.deleteButtonDark{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 1em;
+ border: 0px solid transparent;
+ background-color: rgba(213, 211, 224, 0.641);
+ border-radius: 1.25em;
+ transition: all 0.2s linear;
+}
+.deleteButtonDark:hover{
+  box-shadow: 1.7px 1.25px 2.5px rgba(65, 65, 65, 0.525),
+   4.3px 3.1px 6.2px rgba(65, 65, 65, 0.535),
+   9px 6.5px 12.7px rgba(65, 65, 65, 0.545),
+   18px 13.2px 26.1px rgba(65, 65, 65, 0.555),
+   12.5px 9px 17px rgba(65, 65, 65, 0.8);
+}
+
+.nameCartDark h5{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+.priceItemCartDark p, .cantCartDark{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  color: #fff;}

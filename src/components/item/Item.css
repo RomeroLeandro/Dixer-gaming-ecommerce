@@ -61,8 +61,7 @@ padding-left: 15px;
   height: 330px;
   border-radius: 30px;
   background: #000;
-  box-shadow: 15px 15px 30px #202020,
-             -15px -15px 30px #000;
+box-shadow: 7px 7px 15px #202020,             -7px -7px 15px #303030;
              margin-top: 30px;
   margin: 20px 15px;
   text-decoration: none;
