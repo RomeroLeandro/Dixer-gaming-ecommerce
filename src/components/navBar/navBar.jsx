@@ -15,8 +15,7 @@ export const NavBar = () => {
   const {darkMode} = useDarkModeContext()
 
   return (
-    // <nav className={`navbar navbar-expand-lg ${darkMode ? "navbar-dark bg-primary" : "bg-light"}`}>
-    <nav className='navbar navbar-expand-lg'>
+    <nav className={`navbar navbar-expand-lg ${darkMode && "navbarDark navbar-expand-lg"}`}>
       <div className='container-fluid'>
         <Link className='nav-link' to={'/'}>
           <img className='logo' src='https://firebasestorage.googleapis.com/v0/b/dixer-gaming.appspot.com/o/favicon.ico?alt=media&token=29e42ab5-278a-4b3e-9ed4-4fd262acf519' alt='logo dixer gaming' />
