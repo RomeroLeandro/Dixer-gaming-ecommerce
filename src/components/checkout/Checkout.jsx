@@ -12,8 +12,11 @@ import { toast } from 'react-toastify'
 // import css
 import './Checkout.css'
 export const Checkout = () => {
+  // dark mode
   const {darkMode} = useDarkModeContext()
+  // carrito context
   const { carrito, emptyCart, totalPrice } = useCarritoContext()
+
   let navigate = useNavigate()
   const datosForm = useRef()
 
@@ -55,7 +58,7 @@ export const Checkout = () => {
     const fieldIsEmpty = requiredFields.some((field) => !cliente[field]);
     if (fieldIsEmpty) {
       setShowModalEmpty(true);
-      setModalMessageEmpty("POR FAVOR, COMPLETE TODOS LOS CAMPOS.");
+      setModalMessageEmpty('POR FAVOR, COMPLETE TODOS LOS CAMPOS.');
       return;}
 
     // si los emails no coinciden
@@ -81,58 +84,59 @@ export const Checkout = () => {
     <div className='containerCheckout'>
       {carrito.length === 0
       ?
-      <div className='emptyCheckout'>
+      <div className={`emptyCheckout ${darkMode && 'emptyCheckoutDark'}`}>
         <h2>Para finalizar la compra debe tener productos en el carrito.</h2>
-        <Link to={"/"}><button className="emptyButton">Continuar comprando</button></Link>
+        <Link to={'/'}><button className={`emptyButton ${darkMode && 'emptyButtonDark'}`}>Continuar comprando</button></Link>
       </div>
       :
-      <div className="checkout">
+      <div className='checkout'>
         <form onSubmit={consultarForm} ref={datosForm}>
-          <div className="inputCheckout">
-            <label htmlFor="nombre" className={`label ${darkMode && "labelDark"}`}>Nombre y Apellido:</label>
-            <input type="text"  className={`input ${darkMode && "inputDark"}`} name="nombre" />
+          <div className='inputCheckout'>
+            <label htmlFor='nombre' className={`label ${darkMode && 'labelDark'}`}>Nombre y Apellido:</label>
+            <input type='text'  className={`input ${darkMode && 'inputDark'}`} name='nombre' />
           </div>
           <div className="inputCheckout">
-            <label htmlFor="email" className={`label ${darkMode && "labelDark"}`}>Email:</label>
-            <input type="email" className={`input ${darkMode && "inputDark"}`}  name="email" value={input1Value} onChange={handleInput1Change}/>
+            <label htmlFor='email' className={`label ${darkMode && 'labelDark'}`}>Email:</label>
+            <input type='email' className={`input ${darkMode && 'inputDark'}`}  name='email' value={input1Value} onChange={handleInput1Change}/>
           </div>
-          <div className="inputCheckout">
-            <label htmlFor="email" className={`label ${darkMode && "labelDark"}`}> Repetir Email:</label>
-            <input type="email" className={`input ${darkMode && "inputDark"}`} name="email" value={input2Value} onChange={handleInput2Change}/>
+          <div className='inputCheckout'>
+            <label htmlFor='email' className={`label ${darkMode && 'labelDark'}`}> Repetir Email:</label>
+            <input type='email' className={`input ${darkMode && 'inputDark'}`} name='email' value={input2Value} onChange={handleInput2Change}/>
           </div>
-          <div className="inputCheckout">
-            <label htmlFor="dni" className={`label ${darkMode && "labelDark"}`}>Documento:</label>
-            <input type="number" className={`input ${darkMode && "inputDark"}`} name="dni" />
+          <div className='inputCheckout'>
+            <label htmlFor='dni' className={`label ${darkMode && 'labelDark'}`}>Documento:</label>
+            <input type='number' className={`input ${darkMode && 'inputDark'}`} name='dni' />
           </div>
-          <div className="inputCheckout">
-            <label htmlFor="celular" className={`label ${darkMode && "labelDark"}`}>Numero telefonico:</label>
-            <input type="number" className={`input ${darkMode && "inputDark"}`} name="celular" />
+          <div className='inputCheckout'>
+            <label htmlFor='celular' className={`label ${darkMode && 'labelDark'}`}>Numero telefonico:</label>
+            <input type='number' className={`input ${darkMode && 'inputDark'}`} name='celular' />
           </div>
-          <div className="inputCheckout">
-            <label htmlFor="direccion" className={`label ${darkMode && "labelDark"}`}>Direccion:</label>
-            <input type="text" className={`input ${darkMode && "inputDark"}`} name="direccion" />
+          <div className='inputCheckout'>
+            <label htmlFor='direccion' className={`label ${darkMode && 'labelDark'}`}>Direccion:</label>
+            <input type='text' className={`input ${darkMode && 'inputDark'}`} name='direccion' />
           </div>
-          <button type="submit" className={`buttonCheckout ${darkMode && 'buttonCheckoutDark'}`}>Finalizar compra</button>
+          <button type='submit' className={`buttonCheckout ${darkMode && 'buttonCheckoutDark'}`}>Finalizar compra</button>
         </form>
         {showModal &&
-          <div className="modal">
-            <div className="modalContent">
+          <div className='modal'>
+            <div className={`modalContent ${darkMode && 'modalContentDark'}`}>
             <span className="close" onClick={handleModalClose}>&times;</span>
-            <div className="modalText">
-              <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="rgba(99,96,223,255)" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
-                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            <div className={`modalText ${darkMode && 'modalTextDark'}`}>
+              <svg xmlns='http://www.w3.org/2000/svg' width='56' height='56' fill='rgba(99,96,223,255)' className='bi bi-info-circle-fill' viewBox='0 0 16 16'>
+                <path d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z'/>
               </svg>
               <p>{modalMessage}</p>
             </div>
             </div>
           </div>}
+
         {showModalEmpty &&
-          <div className="modal">
-            <div className="modalContent">
-            <span className="close" onClick={handleModalCloseEmpty}>&times;</span>
-            <div className="modalText">
-              <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="rgba(99,96,223,255)" className="bi bi-info-circle-fill" viewBox="0 0 16 16">
-                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+          <div className='modal'>
+            <div className={`modalContent ${darkMode && 'modalContentDark'}`}>
+            <span className='close' onClick={handleModalCloseEmpty}>&times;</span>
+            <div className={`modalText ${darkMode && 'modalTextDark'}`}>
+              <svg xmlns='http://www.w3.org/2000/svg' width='56' height='56' fill='rgba(99,96,223,255)' className='bi bi-info-circle-fill' viewBox='0 0 16 16'>
+                <path d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z'/>
               </svg>
               <p>{modalMessageEmpty}</p>
             </div>

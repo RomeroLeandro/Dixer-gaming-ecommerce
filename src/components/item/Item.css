@@ -4,85 +4,80 @@
   border-radius: 30px;
   background: #fff;
   box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px #ffffff;
-             margin-top: 30px;
-  margin: 20px 15px;
-  text-decoration: none;
-}
+  -15px -15px 30px #ffffff;
+  margin: 10px 15px;
+  text-decoration: none;}
+
 .cardContent{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 100%;
-}
+  height: 100%;}
+
 .itemImg{
-  width: 220px;
+  width: 100%;
   border-radius: 30px 30px 0px 0px;
   -webkit-border-radius: 30px 30px 0px 0px;
   -moz-border-radius: 30px 30px 0px 0px;
   -ms-border-radius: 30px 30px 0px 0px;
-  -o-border-radius: 30px 30px 0px 0px;
-}
+  -o-border-radius: 30px 30px 0px 0px;}
+
 .cardBody{
-padding-left: 15px;
-}
+padding-left: 15px;}
+
 .cardPrice, .cardBrand, .cardTittle{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
 .cardPrice{
   margin-top: 2PX;
   margin-bottom: 1px;
   font-size: 1.5rem;
   color: #000;
-  font-weight: 600;
-}
+  font-weight: 600;}
+
 .cardBrand{
   color: #bebebe;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px;}
+
 .cardTittle{
   color: #6c6c6c;
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem;}
+
 .line{
   border-bottom: 1.5px solid #bebebe;
-  margin: 1px 0px;
-}
+  margin: 1px 0px;}
+
 .lineContainer{
   position: absolute;
-  top: 0;
-}
+  top: 0;}
 
 .cardProductDark{
   width: 220px;
   height: 330px;
   border-radius: 30px;
-  background: #000;
-box-shadow: 7px 7px 15px #202020,             -7px -7px 15px #303030;
-             margin-top: 30px;
-  margin: 20px 15px;
-  text-decoration: none;
-}
+  background: #0000009b;
+  box-shadow: 7px 7px 15px #202020,             
+  -7px -7px 15px #303030;
+  margin: 10px 15px;
+  text-decoration: none;}
 
 .cardTittleDark{
   color: #bebebe;
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem;}
+
 .cardBrandDark{
   color: #6c6c6c;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px;}
+
 .cardPriceDark{
   margin-top: 2PX;
   margin-bottom: 1px;
   font-size: 1.5rem;
   color: #fff;
-  font-weight: 600;
-}
+  font-weight: 600;}
+
 .lineDark{
   border-bottom: 1.5px solid #fff;
-  margin: 1px 0px;
-}
+  margin: 1px 0px;}

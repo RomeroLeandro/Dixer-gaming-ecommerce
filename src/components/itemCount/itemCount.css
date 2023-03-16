@@ -1,146 +1,117 @@
 .countContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:center;
-    gap: 1rem;
-    margin-top: 30px;
-}
-.count, .cart{
-    width: 100px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- border: 0px solid transparent;
- background-color: rgba(66, 38, 229, 0.08);
- border-radius: 1.25em;
- transition: all 0.2s linear;
- font-size: 1.25rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.addCount, .subtractCount{
-    height: 100%;
-    width: 2.5rem;
-    transition: all 0.2s linear;
-    border: none;
-    background-color: rgba(66, 38, 229, 0.08);
-}
-.addCount{
-    border-radius: 0 1.25rem 1.25rem 0;
-    -webkit-border-radius: 0 1.25rem 1.25rem 0;
-    -moz-border-radius: 0 1.25rem 1.25rem 0;
-    -ms-border-radius: 0 1.25rem 1.25rem 0;
-    -o-border-radius: 0 1.25rem 1.25rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  gap: 1rem;
+  margin: 30px 0px;}
 
-}
+.count{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px solid transparent;
+  background-color: rgba(66, 38, 229, 0.08);
+  border-radius: 1.25em;
+  transition: all 0.2s linear;
+  font-size: 1.25rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+  .addCount, .subtractCount{
+  height: 100%;
+  width: 2.5rem;
+  transition: all 0.2s linear;
+  border: none;
+  background-color: rgba(66, 38, 229, 0.08);}
+
+.addCount{
+  border-radius: 0 1.25rem 1.25rem 0;
+  -webkit-border-radius: 0 1.25rem 1.25rem 0;
+  -moz-border-radius: 0 1.25rem 1.25rem 0;
+  -ms-border-radius: 0 1.25rem 1.25rem 0;
+  -o-border-radius: 0 1.25rem 1.25rem 0;}
+
 .addCount:hover{
-    background: rgba(23, 203, 101, 0.35);
-}
+  background: rgba(23, 203, 101, 0.35);}
+
 .subtractCount{
-    border-radius: 1.25rem 0 0 1.25rem;
-    -webkit-border-radius: 1.25rem 0 0 1.25rem;
-    -moz-border-radius: 1.25rem 0 0 1.25rem;
-    -ms-border-radius: 1.25rem 0 0 1.25rem;
-    -o-border-radius: 1.25rem 0 0 1.25rem;
-}
+  border-radius: 1.25rem 0 0 1.25rem;
+  -webkit-border-radius: 1.25rem 0 0 1.25rem;
+  -moz-border-radius: 1.25rem 0 0 1.25rem;
+  -ms-border-radius: 1.25rem 0 0 1.25rem;
+  -o-border-radius: 1.25rem 0 0 1.25rem;}
+
 .subtractCount:hover{
-    background: rgba(181, 37, 29, 0.35);
-}
+  background: rgba(181, 37, 29, 0.35);}
 
 .counter,.counterBuy{
-    display: flex;
-    align-items: flex-start;
-    padding: 1em;
- border: 0px solid transparent;
- background-color: rgba(66, 38, 229, 0.08);
- border-radius: 1.25em;
- transition: all 0.2s linear;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.counter:hover, .counterBuy:hover, .cartAdd:hover{
-    box-shadow: 3.4px 2.5px 4.9px rgba(0, 0, 0, 0.025),
+  display: flex;
+  align-items: flex-start;
+  padding: 1em;
+  border: 0px solid transparent;
+  background-color: rgba(66, 38, 229, 0.08);
+  border-radius: 1.25em;
+  transition: all 0.2s linear;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.counter:hover, .counterBuy:hover{
+  box-shadow: 3.4px 2.5px 4.9px rgba(0, 0, 0, 0.025),
   8.6px 6.3px 12.4px rgba(0, 0, 0, 0.035),
   17.5px 12.8px 25.3px rgba(0, 0, 0, 0.045),
   36.1px 26.3px 52.2px rgba(0, 0, 0, 0.055),
-  99px 72px 143px rgba(0, 0, 0, 0.08);
-}
-.counter:hover, .cartAdd:hover{
-    background: rgba(51, 108, 240, 0.35);
-}
+  99px 72px 143px rgba(0, 0, 0, 0.08);}
+
+.counter:hover{
+  background: rgba(51, 108, 240, 0.35);}
+
 .counterBuy:hover{
-    background: rgba(23, 203, 101, 0.35);
-}
+  background: rgba(23, 203, 101, 0.35);}
+
 .containerBuyNow{
-    text-decoration: none;
-}
-.counterCart{
-    display: none;
-}
-.cartAdd{
-    height: 2rem;
-    width: 100%;
- border: 0px solid transparent;
- background-color: rgba(66, 38, 229, 0.08);
- border-radius: 0.50em;
- transition: all 0.2s linear;
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- font-size: 1rem;
- -webkit-border-radius: 0.50em;
- -moz-border-radius: 0.50em;
- -ms-border-radius: 0.50em;
- -o-border-radius: 0.50em;
- margin-left: 0.5rem;
-}
-
-.cartContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+  text-decoration: none;}
 
 
-.addCart{
-    border-radius: 0 0.50rem 0.50rem 0;
-    -webkit-border-radius: 0 0.50rem 0.50rem 0;
-    -moz-border-radius: 0 0.50rem 0.50rem 0;
-    -ms-border-radius: 0 0.50rem 0.50rem 0;
-    -o-border-radius: 0 0.50rem 0.50rem 0;
-}
-.addCart:hover{
-    background: rgba(23, 203, 101, 0.35);
-}
-.subtractCart{
-    border-radius: 0.50rem 0 0 0.50rem;
-    -webkit-border-radius: 0.50rem 0 0 0.50rem;
-    -moz-border-radius: 0.50rem 0 0 0.50rem;
-    -ms-border-radius: 0.50rem 0 0 0.50rem;
-    -o-border-radius: 0.50rem 0 0 0.50rem;
-}
-.subtractCart:hover{
-    background: rgba(181, 37, 29, 0.35);
-}
+/* dark mode */
+.counterDark,.counterBuyDark{
+  display: flex;
+  align-items: flex-start;
+  padding: 1em;
+  border: 0px solid transparent;
+  background-color: rgba(213, 211, 224, 0.641);
+  border-radius: 1.25em;
+  transition: all 0.2s linear;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
-.cart{
-    width: 8rem;
- height: 2rem;
- border: 0px solid transparent;
- background-color: rgba(66, 38, 229, 0.08);
- border-radius: 0.50em;
- transition: all 0.2s linear;
- font-size: 1rem;
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- -webkit-border-radius: 0.50em;
- -moz-border-radius: 0.50em;
- -ms-border-radius: 0.50em;
- -o-border-radius: 0.50em;
-}
+.counterDark:hover{
+  background: rgba(54, 114, 254, 0.76);}
+  
+.counterBuyDark:hover{
+  background: rgba(23, 203, 101, 0.76);}
 
-.addCart, .subtractCart{
-    height: 100%;
-    transition: all 0.2s linear;
-    border: none;
-    background-color: rgba(66, 38, 229, 0.08);
-}
+.countDark{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px solid transparent;
+  background-color: rgba(213, 211, 224, 0.641);
+  border-radius: 1.25em;
+  transition: all 0.2s linear;
+  font-size: 1.25rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
+.addCountDark, .subtractCountDark{
+  height: 100%;
+  width: 2.5rem;
+  transition: all 0.2s linear;
+  border: none;
+  background-color: rgba(174, 173, 182, 0.641);}
+
+.addCountDark:hover{
+  background: rgba(23, 203, 101, 0.76);}
+
+.subtractCountDark:hover{
+  background: rgba(181, 37, 29, 0.76);}

@@ -1,89 +1,84 @@
 .itemDetailContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 90px auto;
-    width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px auto;
+  width: 90%;
   border-radius: 30px;
   background: #fff;
   box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px #ffffff;
-}
-
+  -15px -15px 30px #ffffff;}
 
 .imgContainer{
-    margin: 10px;
-}
+  margin: 10px;}
+
 .iconCarousel {
-    width: 30px;
-    height: 30px;
-    background-color: rgba(241,239,253,255);
-}
-.textTittleDetail,.textBrand,
-.priceDetail,
-.stockDetail,
-.descriptionDetail{
-    color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.stockDetail{
-    font-size: 1.25rem;
-    color: #bebebe;
-}
+  width: 30px;
+  height: 30px;
+  background-color: rgba(241,239,253,255);}
+
+.textTittleDetail,.textBrand,.priceDetail,.stockDetail,.descriptionDetail{
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+  .stockDetail{
+  font-size: 1.25rem;
+  color: #bebebe;}
 
 .textTittleDetail{
-    font-size: 3.5rem;
-    margin-top: 35px;
-    margin-bottom: 1px;
-}
+  font-size: 3.5rem;
+  margin-top: 35px;
+  margin-bottom: 1px;}
+
 .textBrand{
-    color: #bebebe;
-    font-size: 1.5rem;
-}
+  color: #bebebe;
+  font-size: 1.5rem;}
+
 .priceDetail{
-    font-size: 2.5rem;
-    font-weight: 600;
-    color:rgb(107,106,221);
-}
+  font-size: 2.5rem;
+  font-weight: 600;
+  color:rgb(107,106,221);}
+
 .descriptionDetail{
-    font-size: 1.25rem;
-}
+  font-size: 1.25rem;
+  margin-right: 10px;}
+
 .textContainer{
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: relative;
-}
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;}
+
 .priceStock{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-}
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;}
 
 .itemDetailContainerDark{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 90px auto;
-    width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px auto;
+  width: 90%;
   border-radius: 30px;
-  background: #000;
-box-shadow: 7px 7px 15px #202020,             -7px -7px 15px #303030;  
-}
+  background: #0000009b;
+  box-shadow: 7px 7px 15px #202020,             
+  -7px -7px 15px #303030;}
 
 .textBrandDark{
-    color: #6c6c6c;
-    font-size: 1.5rem;
-}
+  color: #6c6c6c;
+  font-size: 1.5rem;}
 
 .descriptionDetailDark{
-    color: #fff;
-}
+  color: #fff;}
 
 .textTittleDetailDark{
-    color: #bebebe;
-}
+  color: #bebebe;}
+
+@media screen and (max-width: 950px){
+  .itemDetailContainer{
+    flex-wrap: wrap;}}

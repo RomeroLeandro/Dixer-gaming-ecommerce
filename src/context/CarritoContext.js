@@ -6,39 +6,36 @@ export const useCarritoContext = () => useContext(CarritoContext)
 
 export const CarritoProvider = (props) => {
 
-    const [carrito, setCarrito] = useState([])
+  const [carrito, setCarrito] = useState([])
 
-    const isInCart = (id) => {
-        //Si existe el producto lo retorna, si no existo retorna undefined 
-        return carrito.find(prod => prod.id === id)
-    }
-
-    const addItem = (producto, cantidad) => {
-        if (isInCart(producto.id)) {
-            const indice = carrito.findIndex(prod => prod.id === producto.id)
-            const aux = [...carrito]
-            aux[indice].cant = cantidad
-            setCarrito(aux)
-        } else {
-            const prodCart = {
-                ...producto,
-                cant: cantidad
-            }
-            setCarrito([...carrito, prodCart])
+  const isInCart = (id) => {
+    //Si existe el producto lo retorna, si no existo retorna undefined 
+    return carrito.find(prod => prod.id === id)}
+  const addItem = (producto, cantidad) => {
+    if (isInCart(producto.id)) {
+      const indice = carrito.findIndex(prod => prod.id === producto.id)
+      const aux = [...carrito]
+      aux[indice].cant = cantidad
+      setCarrito(aux)
+      } 
+      else {
+        const prodCart = {
+        ...producto,
+        cant: cantidad}
+        setCarrito([...carrito, prodCart])
         }
-
     }
 
     const removeItem = (id) => {
-        setCarrito(carrito.filter(prod => prod.id !== id))
+      setCarrito(carrito.filter(prod => prod.id !== id))
     }
 
     const emptyCart = () => {
-        setCarrito([])
+      setCarrito([])
     }
 
     const getItemQuantity = () => {
-        return carrito.reduce((acum, prod) => acum += prod.cant, 0)
+      return carrito.reduce((acum, prod) => acum += prod.cant, 0)
     }
 
     const totalPrice = () => {

@@ -15,31 +15,31 @@ export const ItemDetail = ({prod}) => {
     addItem(prod, cantidad)
   }
   return (
-    <div className={`itemDetailContainer ${darkMode && "itemDetailContainerDark"}`}>
-      <div id='carouselExampleFade' className='carousel slide carousel-fade imgContainer'>
+    <div className={`itemDetailContainer ${darkMode && 'itemDetailContainerDark'}`}>
+      <div id='carouselExampleInterval' className='carousel slide imgContainer'>
         <div className='carousel-inner'>
           <div className='carousel-item active'>
-            <img src={prod.img} className='d-block w-400' alt={`imagen de ${prod.nombre}`} />
+            <img src={prod.img} alt={`imagen de ${prod.nombre}`} />
           </div>
           <div className='carousel-item'>
-            <img src={prod.img2} className='d-block w-400' alt={`imagen de ${prod.nombre}`} />
+            <img src={prod.img2}  alt={`imagen de ${prod.nombre}`} />
           </div>
         </div>
-        <button className='carousel-control-prev' type='button' data-bs-target='#carouselExampleFade' data-bs-slide='prev'>
+        <button className='carousel-control-prev' type='button' data-bs-target='#carouselExampleInterval' data-bs-slide='prev'>
           <span className='carousel-control-prev-icon iconCarousel' aria-hidden='true' />
         </button>
-        <button className='carousel-control-next' type='button' data-bs-target='#carouselExampleFade' data-bs-slide='next'>
+        <button className='carousel-control-next' type='button' data-bs-target='#carouselExampleInterval' data-bs-slide='next'>
           <span className='carousel-control-next-icon iconCarousel' aria-hidden='true'/>
         </button>
       </div>
       <div className='textContainer'>
-        <h5 className={`textTittleDetail ${darkMode && "textTittleDetailDark"}`}>{prod.marca} {prod.modelo}</h5>
-        <p className={`textBrand ${darkMode && "textBrandDark"}`}>Marca: {prod.marca}</p>
+        <h5 className={`textTittleDetail ${darkMode && 'textTittleDetailDark'}`}>{prod.marca} {prod.modelo}</h5>
+        <p className={`textBrand ${darkMode && 'textBrandDark'}`}>Marca: {prod.marca}</p>
         <div className='priceStock'>
           <p className='priceDetail'>${new Intl.NumberFormat('de-DE').format(prod.precio)}</p>
           <p className='stockDetail'>({prod.stock} disponibles)</p>
         </div>
-        <p className={`descriptionDetail ${darkMode && "descriptionDetailDark"}`}>{prod.descripcion}</p>
+        <p className={`descriptionDetail ${darkMode && 'descriptionDetailDark'}`}>{prod.descripcion}</p>
         <ItemCount color='itemCount' valInicial={1} stock={prod.stock} onAdd={onAdd} textButton='itemCount'/>
       </div>
     </div>)}

@@ -1,28 +1,36 @@
 .logo{
-    width: 100%;
-    padding-left: 1rem;
-    
-}
+  width: 100%;
+  padding-left: 1rem;}
+
+.nav{
+  background-color: #fff;}
+
 .navbar{
-    padding: 5px;
-    background: #fff;
+  height: 50px;
+  padding: 2px;
+  background: #fff;
   box-shadow: 10px 10px 20px #bebebe,
-             -10px -10px 20px #ffffff;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    margin-bottom: 20px;
-}
+  -10px -10px 20px #ffffff;
+  position: sticky;
+  width: 100%;
+  z-index: 2;
+  margin-bottom: 10px;}
+
 .container-fluid{
-    padding: 0;
-}
+  padding: 0;}
 
 .navbarDark{
-    padding: 5px;
-    background: #000;
-    box-shadow: 7px 7px 15px #202020,             -7px -7px 15px #303030;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    margin-bottom: 20px;
-}
+  height: 50px;
+  padding: 2px;
+  background: #0000009b;
+  box-shadow: 7px 7px 15px #202020,             -7px -7px 15px #303030;
+  position: sticky;
+  width: 100%;
+  z-index: 2;
+  margin-bottom: 10px;}
+
+.buttonTogglerDark{
+  background-color: #bebebe;}
+
+.navDark{
+  background-color: #0000009b;}
