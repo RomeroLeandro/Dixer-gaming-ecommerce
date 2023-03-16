@@ -19,10 +19,10 @@ export const ItemDetail = ({prod}) => {
       <div id='carouselExampleInterval' className='carousel slide imgContainer'>
         <div className='carousel-inner'>
           <div className='carousel-item active'>
-            <img src={prod.img} alt={`imagen de ${prod.nombre}`} />
+            <img className='img' src={prod.img} alt={`imagen de ${prod.nombre}`} />
           </div>
           <div className='carousel-item'>
-            <img src={prod.img2}  alt={`imagen de ${prod.nombre}`} />
+            <img className='img' src={prod.img2}  alt={`imagen de ${prod.nombre}`} />
           </div>
         </div>
         <button className='carousel-control-prev' type='button' data-bs-target='#carouselExampleInterval' data-bs-slide='prev'>
@@ -40,6 +40,6 @@ export const ItemDetail = ({prod}) => {
           <p className='stockDetail'>({prod.stock} disponibles)</p>
         </div>
         <p className={`descriptionDetail ${darkMode && 'descriptionDetailDark'}`}>{prod.descripcion}</p>
-        <ItemCount color='itemCount' valInicial={1} stock={prod.stock} onAdd={onAdd} textButton='itemCount'/>
+        <ItemCount valInicial={1} stock={prod.stock} onAdd={onAdd} textButton='itemCount'/>
       </div>
     </div>)}

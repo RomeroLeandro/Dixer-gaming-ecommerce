@@ -1,12 +1,13 @@
 .itemCart{
   width: 70%;
-  height: 100px;
+  height: auto;
   background: #fff;
   border-radius: 15px;
   box-shadow: 15px 15px 30px #bebebe,                 
   -15px -15px 30px #ffffff;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -77,7 +78,7 @@
 
 .itemCartDark{
   width: 70%;
-  height: 100px;
+  height: auto;
   border-radius: 15px;
   background: #0000009b;
   box-shadow: 7px 7px 15px #202020,             
@@ -119,3 +120,27 @@
   font-size: 1.2rem;
   margin-bottom: 0;
   color: #fff;}
+
+  @media screen and (max-width: 850px){
+    .itemCart,.itemCartDark{
+      width: 15rem;
+      display: flex;
+      justify-content: center ;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      padding: 5px;}
+
+    .nameCart,.nameCartDark{
+      margin: 0;
+      text-align: center;
+      width: auto;}
+
+    .cantCart{
+       margin: 0;}
+
+    .priceItemCart {
+    margin: 0;}
+    
+    .delete{
+      margin: 0;}}

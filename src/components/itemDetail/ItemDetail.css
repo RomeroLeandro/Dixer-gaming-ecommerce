@@ -12,6 +12,9 @@
 .imgContainer{
   margin: 10px;}
 
+  .img{
+    width: 40rem;
+  }
 .iconCarousel {
   width: 30px;
   height: 30px;
@@ -81,4 +84,14 @@
 
 @media screen and (max-width: 950px){
   .itemDetailContainer{
-    flex-wrap: wrap;}}
+    flex-wrap: wrap;}
+    .img{
+      width: 35rem;
+    }}
+
+@media screen and (max-width: 450px){
+  .itemDetailContainer{
+    flex-wrap: wrap;}
+    .img{
+       width: 25rem;
+    }}
