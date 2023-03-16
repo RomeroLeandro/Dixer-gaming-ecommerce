@@ -50,3 +50,10 @@
   9px 6.5px 12.7px rgba(65, 65, 65, 0.545),
   18px 13.2px 26.1px rgba(65, 65, 65, 0.555),
   12.5px 9px 17px rgba(65, 65, 65, 0.8);}
+
+
+  @media screen and (max-width: 992px){
+    .cartIcon{
+      margin-left: 29px;
+    }
+  }

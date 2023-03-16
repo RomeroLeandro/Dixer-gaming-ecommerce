@@ -79,3 +79,9 @@
 
 .categoryContainerDark:hover{
   color: #7a8b8b;}
+
+  @media screen and (max-width: 992px){
+    .categoryContainer{
+      margin-left: 10px;
+    }
+  }

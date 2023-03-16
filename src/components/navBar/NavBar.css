@@ -3,7 +3,8 @@
   padding-left: 1rem;}
 
 .nav{
-  background-color: #fff;}
+  background-color: #fff;
+}
 
 .navbar{
   height: 50px;
@@ -29,8 +30,18 @@
   z-index: 2;
   margin-bottom: 10px;}
 
+  
 .buttonTogglerDark{
   background-color: #bebebe;}
 
 .navDark{
   background-color: #0000009b;}
+
+  @media screen and (max-width: 992px){
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+  }

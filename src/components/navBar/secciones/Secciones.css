@@ -45,3 +45,10 @@
   18px 13.2px 26.1px rgba(65, 65, 65, 0.555),
   12.5px 9px 17px rgba(65, 65, 65, 0.8);
   background: rgba(186, 240, 51, 0.76);}
+
+
+  @media screen and (max-width: 992px){
+    .buttonHelp{
+      margin-left: 26px;
+    }
+  }

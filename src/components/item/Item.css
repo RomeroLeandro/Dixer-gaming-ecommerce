@@ -81,3 +81,9 @@ padding-left: 15px;}
 .lineDark{
   border-bottom: 1.5px solid #fff;
   margin: 1px 0px;}
+
+  @media screen and (max-width: 450px){
+    .cardProduct{
+      height: auto;
+    }
+  }
