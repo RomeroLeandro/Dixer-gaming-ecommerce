@@ -84,6 +84,6 @@ padding-left: 15px;}
 
   @media screen and (max-width: 450px){
     .cardProduct{
-      height: auto;
+      height: 330px;
     }
   }
